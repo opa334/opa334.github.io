@@ -5,10 +5,10 @@ Maintainer: opa334
 Installed-Size: 0
 Depends: firmware (>=11.0)
 Filename: ./debs/com.opa334.cccleaner_1.0_iphoneos-arm.deb
-Size: 11268
-MD5sum: 895a92cbbe6c4cf08291de1dba78172e
-SHA1: b742a7bc700607cf6779e6ba6befc956a175e7fe
-SHA256: 5a71cc839c817aa5137e4b779bca0b680c2a362426a77aae88b3233f8845d775
+Size: 11274
+MD5sum: 674991da8722f99067694221287d3576
+SHA1: b6bd7d42da8bc512044552fbaf9e9b0963183e2b
+SHA256: 870e96c7eab6cdbf9514009d548b6db0fff5558fe4c58241e3c758d2014e6aca
 Section: System
 Homepage: https://opa334.github.io/
 Description: Cleans up modified CC system files!
