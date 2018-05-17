@@ -1,0 +1,8 @@
+Origin: opa334
+Label: opa334's repo
+Suite: stable
+Version: 1.0
+Codename: opa334
+Architectures: iphoneos-arm
+Components: main
+Description: opa334's Cydia Repository
