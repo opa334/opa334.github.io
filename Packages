@@ -13,5 +13,5 @@ Section: System
 Homepage: https://opa334.github.io/
 Description: Cleans up modified CC system files!
 Author: opa334
-Depiction: ./depic/CCCleaner/index.html
+Depiction: https://opa334.github.io/depic/CCCleaner/index.html
 Name: CCCleaner
