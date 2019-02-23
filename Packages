@@ -34,3 +34,38 @@ Author: opa334
 Depiction: https://opa334.github.io/depic/CCCleaner/index.html
 Name: CCCleaner
 
+Package: com.opa334.ccsupport
+Version: 1.2-2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.2-2_iphoneos-arm.deb
+Size: 30942
+MD5sum: 4c7228bc2d89edd41a0d54db4fb1cb4f
+SHA1: c1e9ff8673b255516ac69c0f685d31445a03dbd2
+SHA256: eaa1870da5a674cba31a58ab81a8138d4f3fd438f2760315aeb9cffa398b7fc0
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Name: CCSupport
+
+Package: com.opa334.safariplus
+Version: 1.6.6
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 1724
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.opa334.safariplus_1.6.6_iphoneos-arm.deb
+Size: 428628
+MD5sum: 796062b97409f4b5262959a4f21bda4a
+SHA1: af2d8bbf34cd5c90237ef9c01629b88d5a35ec71
+SHA256: 458187a815313442b9fe31478d56f9b9ff4bd9528db3979cbc6225992241248e
+Section: Tweaks
+Description: Various enhancements to Safari!
+Author: opa334
+Name: Safari Plus
+
