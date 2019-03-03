@@ -53,6 +53,24 @@ Description: Support tweak for CC modules!
 Author: opa334
 Name: CCSupport
 
+Package: com.opa334.fastsafaripw
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 296
+Depends: firmware (<=10.3.3), mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.opa334.fastsafaripw_1.0_iphoneos-arm.deb
+Size: 18930
+MD5sum: ba21d1b735c245ac349855b20d79248c
+SHA1: 6984e41a607feeb1e30ed14d76c71c1f2e4949f8
+SHA256: 66cf175dfb24f62003e02150aaece46e1dc948a2497c1424e09bfc2d222960bf
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: A fast way to access 1Password or LastPass!
+Author: opa334
+Depiction: https://opa334.github.io/depic/FastSafariPW/index.html
+Name: FastSafariPW
+
 Package: com.opa334.safariplus
 Version: 1.6.6
 Architecture: iphoneos-arm
