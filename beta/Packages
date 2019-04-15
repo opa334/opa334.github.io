@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: opa334
 Installed-Size: 2712
 Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
-Filename: ./beta/debs/com.opa334.safariplus_1.7~b1_iphoneos-arm.deb
+Filename: ./debs/com.opa334.safariplus_1.7~b1_iphoneos-arm.deb
 Size: 612974
 MD5sum: 1e382bbeb3c44fd7c25984e43f3b8824
 SHA1: fe888a9534460ad2e2c6c319186b7b39f4764558
