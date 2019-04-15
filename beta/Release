@@ -1,6 +1,6 @@
 Origin: opa334's Beta Repo
 Label: opa334's Beta Repo
-Suite: experimental
+Suite: stable
 Version: 1.0
 Codename: opa334beta
 Architectures: iphoneos-arm
