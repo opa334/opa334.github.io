@@ -121,3 +121,19 @@ Description: Various enhancements to Safari!
 Author: opa334
 Name: Safari Plus
 
+Package: com.opa334.safariplus
+Version: 1.6.8-2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 2376
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.opa334.safariplus_1.6.8-2_iphoneos-arm.deb
+Size: 507950
+MD5sum: 4e553f77d12afe7739e213a38f75fd3c
+SHA1: 4a34e0a6727f54bc0a2d62e126dd68e0dd49c110
+SHA256: 1fb3f34acea13a3866bfbafc1c5c47f45e8b266ab8df9741cedf54b51e019084
+Section: Tweaks
+Description: Various enhancements to Safari!
+Author: opa334
+Name: Safari Plus
+
