@@ -71,6 +71,24 @@ Author: opa334
 Depiction: https://opa334.github.io/depic/FastSafariPW/index.html
 Name: FastSafariPW
 
+Package: com.opa334.nosubstitute12
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 296
+Depends: mobilesubstrate, applist
+Filename: ./debs/com.opa334.nosubstitute12_1.0_iphoneos-arm.deb
+Size: 17952
+MD5sum: 813b2e04ed7cf749406e3994a49ee196
+SHA1: a9aa069babfefa5f24dfd719a3e4673f4a7ff45e
+SHA256: 02fa5327be84fa648ee2c52e4ae2df7a34d6cd925d9592f9a090424e71108dfe
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Disable Substitute on a per app basis!
+Author: opa334
+Depiction: https://opa334.github.io/depic/NoSubstitute12/index.html
+Name: NoSubstitute12
+
 Package: com.opa334.safariplus
 Version: 1.6.6
 Architecture: iphoneos-arm
