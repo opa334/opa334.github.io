@@ -1,0 +1,156 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.1",
+	"headerImage": "https://opa334.github.io/depic/SafariPlus/resources/SileoHeader.png",
+	"tintColor": "#3838af",
+	"tabs":
+	[
+		{
+			"class":"DepictionStackView",
+			"tabname": "Details",
+			"views":
+			[
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Safari by itself is great mobile browser but it lacks some features. That's where Safari Plus comes into play.\n\nSafari Plus features a lot of stuff, ranging from small usability improvements to extensive new features.\nAdditionally, it also adds several options to customize Safari to your liking.\n\nEach feature can be toggled on or off on demand inside settings.\n\nA full feature list can be found below.\n\n\n### Privacy\n* Force HTTPS (+ configurable exception sites)\n* Locked Tabs - Adds a lock-switch to every tab inside the tab switcher that, when enabled, prevents the specific tab from being closed until the switch is disabled again\n* Biometric Protection - Require TouchID / FaceID verification for switching browsing modes, locking tabs, unlocking tabs or accessing locked tabs\n\n\u2063\n### Uploads & Downloads\n* Enhanced Uploads - An additonal option to the document sheet that can be used to upload any file on your root file system* Enhanced Downloads - Extensive enhancements to the downloading functionality of Safari, check out the preference page for more detailed info \n\n\u2063\n### Usability\n* Second 'Open in New Tab' Option - Can be used to have the \"Open in Background\" option and the \"Open in New Tab\" option available alongside each other\n* Open in Opposite Mode Option - Adds an option to open a long pressed URL in the respective other browsing mode\n* Desktop Mode Switch - A switch inside tab switcher that can be used to toggle desktop mode on / off globally\n* Tab Manager - An easy way to batch-export, batch-close and batch-add tabs\n* Disable Tab Limit - Disables the default tab limit (varies between devices)\n* Custom Start Site - Change the default favorites view when opening a new tab to a specified URL\n* Insert Suggestion on Long Press - Insert a search suggestion into the URL bar by long pressing it\n* Suggestion Insert Button - Insert a search suggestion into the URL bar by pressing a button on the right of it\n* Show Tab Count - Shows the tab count on the button that opens the tab switcher\n* Fullscreen Scrolling - Hide the top bar when scrolling down\n* Lock Bars - Lock the top and buttom bar into place while scrolling\n\n\u2063\n### Behaviour\n* Change Browsing Mode on App Start, App Resume, External Link Opened\n* Auto Close Tabs on Minimazion or Close of Safari\n* Auto-Clear Browser Data on Minimization or Close of Safari\n* Fully Disable Private Browsing\n* Always Open Links in New Tab (+ Option to always open in background)\n* Suppress Mailto Dialog (on iOS 10 and above)\n\n\u2063\n### Gestures\n* URL Bar Swipe Left, Right, Down Gestures\n* Many available actions to trigger\n\n\u2063\n### Customization\n* Color Settings for Top Toolbar, Bottom Toolbar and Tab Switcher for both normal and private browsing modes\n* Change the button order of the Top and Bottom Toolbars",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Latest Version",
+					"text": "1.7~b4"
+				},
+				{
+					"class": "DepictionTableButtonView",
+					"title": "Source Code",
+					"action" : "https://github.com/opa334/SafariPlus"
+				},
+				{
+					"class": "DepictionTableButtonView",
+					"title": "Follow me on Twitter",
+					"action" : "https://twitter.com/opa334dev"
+				},
+				{
+					"class": "DepictionTableButtonView",
+					"title": "Donate",
+					"action" : "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=opa334@protonmail.com&item_name=iOS%20Tweak%20Development"
+				}
+			]
+		},
+		{
+			"class":"DepictionStackView",
+			"tabname": "Changelog",
+			"views":
+			[
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.7~b4",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "**New Features**:\n* Suggestion Insert Button\n* Tab Manager (Not fully done yet) \n\n\u2063\n\n **Improvements:**\n* Support for A12 / arm64e\n* Merged fixes from 1.6.8\n* Show an when a download is attempted to be started under cellular data while the 'Only Download on Wifi' option is enabled\n* Renamed 'Second 'Open in new Tab' option to 'Both Tab Open Actions' and changed it's behaviour accordingly\n* FullSafari compatibility has been restored\n* Updated arabic localization, thanks to iA7myd",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "May 1, 2019",
+					"useBoldText": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.7~b3",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Several fixes for RTL languages (related to locked tabs and toolbar reordering)\n* Fix stupid oversight that caused lock button icons to not appear on 32 bit devices\n* Minor improvements to how locked tabs are handled",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "April 18, 2019",
+					"useBoldText": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.7~b2",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Fixed an issue where the downloads button would not appear when the reordering options are disabled",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "April 15, 2019",
+					"useBoldText": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.7~b1",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "**New Features:**\n* Locked Tabs\n* Biometric Protection\n* Custom Start Site\n* Show Tab Count\n* Toolbar Reordering Options\n* Top Bar Reading Button Color\n* Top Bar Tab Bar Close Button Color\n* Tab Switcher Toolbar Background Color \n\n\u2063\n\n**Improvements:**\n* Reworked settings, added killswitch\n* Fixed status bar notifications being too big on some devices\n* Fixed choppy animation when using the \"Open in opposite mode\" option<br>* Fixed desktop mode being always on when \"Desktop Mode Switch\" is disabled inside settings (¯\\\\_(ツ)_/¯)\n* Improved desktop mode switch to feel and look more like the other buttons\n* Switched to libCSColorPicker\n* Reworked Force HTTPS Exceptions and Pinned Locations preferences (seperate plists no longer needed)\n* \"safaripluscolorprefs.plist\" and \"safariplusprefsOther.plist\" are automatically merged into \"safariplusprefs.plist\" on first launch of Safari or Preferences\n* Reworked some color settings to be less hacky\n* Many more bug fixes and improvements (more than I can remember)",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "April 15, 2019",
+					"useBoldText": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.6.7",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "**Enhanced Downloads:**\n* Fix an issue where pressing the video download button would sometimes crash on iOS 12 \n\n\u2063\n\n**Action Addons:**\n* Browsing mode switch actions should now work properly again",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "February 25, 2019",
+					"useBoldText": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.6.6",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "**General:**\n* iOS 12 Support!\n* Added spanish localization, thanks to Thomas CS\n* Updated italian localization, thanks to Eugenio R \n\n\u2063\n\n**Enhanced Downloads**\n* Fixed an issue where the option to clear all downloads would sometimes not work\n* Improved sandbox detection \n\n\u2063\n\n **Desktop Mode Button:**\n* Internal code improvements\n* Fixed a crash on iOS 8 when the \"Fully disable private browsing\" option is enabled together with this option",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "February 22, 2019",
+					"useBoldText": false
+				},
+			]
+		}
+	]
+}
