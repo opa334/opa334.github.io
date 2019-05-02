@@ -1,7 +1,7 @@
 {
 	"class": "DepictionTabView",
 	"minVersion": "0.1",
-	"headerImage": "https://opa334.github.io/depic/SafariPlus/resources/SileoHeader.png",
+	"headerImage": "https://opa334.github.io/depic/SafariPlus/Resources/SileoHeader.png",
 	"tintColor": "#3838af",
 	"tabs":
 	[
