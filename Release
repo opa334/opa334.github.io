@@ -6,3 +6,4 @@ Codename: opa334
 Architectures: iphoneos-arm
 Components: main
 Description: opa334's Cydia Repository
+Icon: file://CydiaIcon.png

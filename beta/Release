@@ -6,3 +6,4 @@ Codename: opa334beta
 Architectures: iphoneos-arm
 Components: main
 Description: opa334's Cydia Beta Repository
+Icon: file://CydiaIcon.png
