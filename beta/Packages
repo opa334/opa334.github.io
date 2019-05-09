@@ -68,6 +68,25 @@ Homepage: https://opa334.github.io/
 Description: Various enhancements to Safari!
 Author: opa334
 Depiction: https://opa334.github.io/beta/depic/SafariPlus/index.html
-SileoDepiction: https://opa334.github.io/beta/depic/SafariPlus/sileo.json
 Name: Safari Plus
+
+Package: com.opa334.safariplus
+Version: 1.7~b5
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 3712
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.opa334.safariplus_1.7~b5_iphoneos-arm.deb
+Size: 775506
+MD5sum: 08eed11b333be3f02f9de2c57be2e8e3
+SHA1: 4cce702d37d7bde46a02a7f29264ad43962291e0
+SHA256: f83a49aaa4f01ddc10fbeffbaf140d187eea4290715f66881129346dc2dd4981
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334
+Depiction: https://opa334.github.io/beta/depic/SafariPlus/index.html
 Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus
+Sileodepiction: https://opa334.github.io/beta/depic/SafariPlus/sileo.json
+

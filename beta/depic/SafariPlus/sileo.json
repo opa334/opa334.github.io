@@ -21,7 +21,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Latest Version",
-					"text": "1.7~b4"
+					"text": "1.7~b5"
 				},
 				{
 					"class": "DepictionTableButtonView",
@@ -45,6 +45,24 @@
 			"tabname": "Changelog",
 			"views":
 			[
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.7~b5",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Tab Manager will now show tab icons on iOS 12 if they are enabled inside Safari settings\n* Fix some crashes related to the Tab Manager\n* Correct preference header aspect ratio on iPads and larger devices",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "May 9, 2019",
+					"useBoldText": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"title": "Version 1.7~b4",
