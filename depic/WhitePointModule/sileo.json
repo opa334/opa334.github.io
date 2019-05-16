@@ -1,0 +1,70 @@
+{
+	"class": "DepictionTabView",
+	"minVersion": "0.1",
+	"tintColor": "#8e8e93",
+	"tabs":
+	[
+		{
+			"class":"DepictionStackView",
+			"tabname": "Details",
+			"views":
+			[
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Control Center module to toggle the \"Reduce White Point\" functionality. Long press / force touch to change the intensity.",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Latest Version",
+					"text": "1.0"
+				},
+				{
+					"class": "DepictionTableButtonView",
+					"title": "Video Demo",
+					"action" : "https://twitter.com/opa334dev/status/1128752676857110528"
+				},
+				{
+					"class": "DepictionTableButtonView",
+					"title": "Source Code",
+					"action" : "https://github.com/opa334/WhitePointModule"
+				},
+				{
+					"class": "DepictionTableButtonView",
+					"title": "Follow me on Twitter",
+					"action" : "https://twitter.com/opa334dev"
+				},
+				{
+					"class": "DepictionTableButtonView",
+					"title": "Donate",
+					"action" : "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=opa334@protonmail.com&item_name=iOS%20Tweak%20Development"
+				}
+			]
+		},
+		{
+			"class":"DepictionStackView",
+			"tabname": "Changelog",
+			"views":
+			[
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.0",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Initial Release",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "May 16, 2019",
+					"useBoldText": false
+				},
+			]
+		}
+	]
+}
