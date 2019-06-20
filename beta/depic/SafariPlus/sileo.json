@@ -21,7 +21,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Latest Version",
-					"text": "1.7~b5"
+					"text": "1.7~b7"
 				},
 				{
 					"class": "DepictionTableButtonView",
@@ -45,6 +45,21 @@
 			"tabname": "Changelog",
 			"views":
 			[
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.7~b7",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "**New Features:**\n* An additional reload button can now be added to the toolbar inside toolbar reordering options\n* Added an option to auto save finished downloads to the media library\n* Added an option to prevent downloads from being saved to the history if they're started from private browsing mode\n* Added an option to have a progress bar under the downloads button inside the toolbar (like on iOS 13), enabled by default \n\n\u2063\n\n **Improvements:**\n* Preview actions for way more files inside file browser (text files, pdf, images, etc.)\n* Better file icons\n* Better directory icon (only on iOS 12, 11 and below still use the old one)\n* Fixed some preference crashes with the toolbar reordering options on iOS 8\n* The UI for download cells has been fully rewritten, now supports dynamic type\n* Fixed a few issues that could cause downloads to become stuck (for real this time, hopefully...)\n* If a download fails due to a connection error, it now cancels and a \"Download Error\" notification shows (previously it would just become stuck)\n* Fixed a potential issue with video downloading",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "June 20, 2019",
+					"useBoldText": false
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"title": "Version 1.7~b6",

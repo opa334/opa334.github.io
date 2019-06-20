@@ -79,28 +79,23 @@
 			</li>
 		</ul>
 
-		<h2 role="header">What's new? (1.7~b6)</h2>
+		<h2 role="header">What's new? (1.7~b7)</h2>
 		<ul>
 			<li>
 				<p><b>New Features:</b><br>
-					• The ability to manually start downloads from an URL, accessible from the plus button inside the top bar of the downloads list<br><br>
+					• An additional reload button can now be added to the toolbar inside toolbar reordering options<br>
+					• Added an option to auto save finished downloads to the media library<br>
+					• Added an option to prevent downloads from being saved to the history if they're started from private browsing mode<br>
+					• Added an option to have a progress bar under the downloads button inside the toolbar (like on iOS 13), enabled by default<br><br>
 					<b>Improvements:</b><br>
-					• Unsupported options will now automatically be hidden (based on the iOS version you're running)<br>
-					• The "copy link" action has been enabled on all downloads, previously it was only available on video downloads<br>
-					• Row animations inside the file browser and the downloads list are now way more smooth (Tab Manager soon)<br>
-					• The restart button on finished downloads has been improved to use the code related to manual downloading, it no longer opens the website and rather restarts the download directly now<br>
-					• The show button on finished downloads will now only show if the file exists<br>
-					• The show button on finished downloads has been improved to scroll to the file and highlight it inside it's directory<br>
-					• The touchable area of the suggestion insert button has been increased<br>
-					• The close button inside the Tab Manager now shows a confirmation alert<br>
-					• Fixed the suggestion insert button crashing on iOS 9 and 10<br>
-					• Fixed some crashes related to the Tab Manager<br>
-					• Fixed a potential issue that could have been related to downloads becoming stuck<br>
-					• Fixed a bug that would sometimes cause the file browser to not refresh correctly<br>
-					• Fixed a rare crash when pressing the video download button<br>
-					• Fixed a crash when multiple downloads end at the same time<br>
-					• Fixed an issue that sometimes caused the rocketbootstrap error alert to incorrectly appear<br>
-					• Internal code improvements
+					• Preview actions for way more files inside file browser (text files, pdf, images, etc.)<br>
+					• Better file icons<br>
+					• Better directory icon (only on iOS 12, 11 and below still use the old one)<br>
+					• Fixed some preference crashes with the toolbar reordering options on iOS 8<br>
+					• The UI for download cells has been fully rewritten, now supports dynamic type<br>
+					• Fixed a few issues that could cause downloads to become stuck (for real this time, hopefully...)<br>
+					• If a download fails due to a connection error, it now cancels and a "Download Error" notification shows (previously it would just become stuck)<br>
+					• Fixed a potential issue with video downloading
 			</li>
 			<li>
 				<a href="./changelog.html" target="_blank" role="button">Full Changelog</a>
