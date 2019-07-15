@@ -12,7 +12,7 @@
 			[
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "Safari by itself is great mobile browser but it lacks some features. That's where Safari Plus comes into play.\n\nSafari Plus features a lot of stuff, ranging from small usability improvements to extensive new features.\nAdditionally, it also adds several options to customize Safari to your liking.\n\nEach feature can be toggled on or off on demand inside settings.\n\nA full feature list can be found below.\n\n\n### Privacy\n* Force HTTPS (+ configurable exception sites)\n* Locked Tabs - Adds a lock-switch to every tab inside the tab switcher that, when enabled, prevents the specific tab from being closed until the switch is disabled again\n* Biometric Protection - Require TouchID / FaceID verification for switching browsing modes, locking tabs, unlocking tabs or accessing locked tabs\n\n\u2063\n### Uploads & Downloads\n* Enhanced Uploads - An additonal option to the document sheet that can be used to upload any file on your root file system* Enhanced Downloads - Extensive enhancements to the downloading functionality of Safari, check out the preference page for more detailed info \n\n\u2063\n### Usability\n* Second 'Open in New Tab' Option - Can be used to have the \"Open in Background\" option and the \"Open in New Tab\" option available alongside each other\n* Open in Opposite Mode Option - Adds an option to open a long pressed URL in the respective other browsing mode\n* Desktop Mode Switch - A switch inside tab switcher that can be used to toggle desktop mode on / off globally\n* Tab Manager - An easy way to batch-export, batch-close and batch-add tabs\n* Disable Tab Limit - Disables the default tab limit (varies between devices)\n* Custom Start Site - Change the default favorites view when opening a new tab to a specified URL\n* Insert Suggestion on Long Press - Insert a search suggestion into the URL bar by long pressing it\n* Suggestion Insert Button - Insert a search suggestion into the URL bar by pressing a button on the right of it\n* Show Tab Count - Shows the tab count on the button that opens the tab switcher\n* Fullscreen Scrolling - Hide the top bar when scrolling down\n* Lock Bars - Lock the top and buttom bar into place while scrolling\n\n\u2063\n### Behaviour\n* Change Browsing Mode on App Start, App Resume, External Link Opened\n* Auto Close Tabs on Minimazion or Close of Safari\n* Auto-Clear Browser Data on Minimization or Close of Safari\n* Fully Disable Private Browsing\n* Always Open Links in New Tab (+ Option to always open in background)\n* Suppress Mailto Dialog (on iOS 10 and above)\n\n\u2063\n### Gestures\n* URL Bar Swipe Left, Right, Down Gestures\n* Many available actions to trigger\n\n\u2063\n### Customization\n* Color Settings for Top Toolbar, Bottom Toolbar and Tab Switcher for both normal and private browsing modes\n* Change the button order of the Top and Bottom Toolbars",
+					"markdown": "Safari by itself is great mobile browser but it lacks some features. That's where Safari Plus comes into play.\n\nSafari Plus features a lot of stuff, ranging from small usability improvements to extensive new features.\nAdditionally, it also adds several options to customize Safari to your liking.\n\nEach feature can be toggled on or off on demand inside settings.\n\nA full feature list can be found below.\n\n\n### Privacy\n* Force HTTPS (+ configurable exception sites)\n* Locked Tabs - Adds a lock-switch to every tab inside the tab switcher that, when enabled, prevents the specific tab from being closed until the switch is disabled again\n* Biometric Protection - Require TouchID / FaceID verification for switching browsing modes, locking tabs, unlocking tabs or accessing locked tabs\n\n\u2063\n### Uploads & Downloads\n* Upload Any File - An additonal option to the document sheet that can be used to upload any file on your root file system\n* Download Manager - Extensive enhancements to the downloading functionality of Safari, check out the preference page for more detailed info \n\n\u2063\n### Usability\n* Both Link Opening Options - Have the \"Open in Background\" option and the \"Open in New Tab\" option available alongside each other\n* Open in Opposite Mode Option - Adds an option to open a long pressed URL in the respective other browsing mode\n* Desktop Mode Switch - A switch inside tab switcher that can be used to toggle desktop mode on / off globally\n* Tab Manager - An easy way to batch-export, batch-close and batch-add tabs\n* Disable Tab Limit - Disables the default tab limit (varies between devices)\n* Always Open Links in New Tab (+ Option to always open in background)\n* Fully Disable Private Browsing\n* Insert Suggestion on Long Press - Insert a search suggestion into the URL bar by long pressing it\n* Suggestion Insert Button - Insert a search suggestion into the URL bar by pressing a button on the right of it\n* Show Tab Count - Shows the tab count on the button that opens the tab switcher\n* Fullscreen Scrolling - Hide the top bar when scrolling down\n* Lock Bars - Lock the top and buttom bar into place while scrolling\n* Show Full Site URL - Always show the full URL in the top bar\n* Suppress Mailto Dialog (on iOS 10 and above)\n\n\u2063\n### Actions\n* Change Browsing Mode on App Start, App Resume, External Link Opened\n* Auto Close Tabs on Minimazion or Close of Safari\n* Auto-Clear Browser Data on Minimization or Close of Safari\n\n\u2063\n### Gestures\n* URL Bar Swipe Left, Right, Down Gestures\n* Toolbar Swipe Left, Right, Up / Down Gestures\n* Many available actions to trigger\n\n\u2063\n### Customization\n* Color Settings for Top Toolbar, Bottom Toolbar and Tab Switcher for both normal and private browsing modes\n* Change the button order of the Top and Bottom Toolbars\n* Custom Start Site - Change the default favorites view when opening a new tab to a specified URL\n* Custom Start Engine - Change the search engine of Safari to any URL\n* Custom User Agent - Change the user agent for both mobile and desktop mode",
 					"useSpacing": true
 				},
 				{
@@ -21,7 +21,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Latest Version",
-					"text": "1.7~b7"
+					"text": "1.7~b8"
 				},
 				{
 					"class": "DepictionTableButtonView",
@@ -45,6 +45,24 @@
 			"tabname": "Changelog",
 			"views":
 			[
+				{
+					"class": "DepictionSubheaderView",
+					"title": "Version 1.7~b8",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "**New Features:**\n* Show Full Site URL\n* Swipe Gestures for Toolbar\n* Custom Search Engine\n* Custom User Agent (Mobile + Desktop)\n* An option to make the scroll position of the tab manager start at the current position of the tab switcher\n* Option for large titles (on iOS 11 and above) \n\n\u2063\n\n **Improvements:**\n* Full support for 12.2\n* Reworked and simplified preferences (again)\n* Tab Bar integration for Locked Tabs (on iOS 9 and above)\n* Tab Manager now shows whether a tab is locked (if the feature is enabled)\n* Tab Manager now has an option to batch lock and unlock tabs (if the feature is enabled)\n* Tab Manager now has an option to batch-export to bookmarks\n* Improved Tab Manager reload animation\n* Fixed suppress mailto alert option for iOS 12 and above\n* Improved desktop mode switch\n* Fixed a bug that could cause a video file to be randomly deleted under certain rare circumstances when tapped (let's hope this never actually happened to anyone besides me?)",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "July 15, 2019",
+					"useBoldText": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"title": "Version 1.7~b7",
@@ -160,7 +178,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "**New Features:**\n* Locked Tabs\n* Biometric Protection\n* Custom Start Site\n* Show Tab Count\n* Toolbar Reordering Options\n* Top Bar Reading Button Color\n* Top Bar Tab Bar Close Button Color\n* Tab Switcher Toolbar Background Color \n\n\u2063\n\n**Improvements:**\n* Reworked settings, added killswitch\n* Fixed status bar notifications being too big on some devices\n* Fixed choppy animation when using the \"Open in opposite mode\" option<br>* Fixed desktop mode being always on when \"Desktop Mode Switch\" is disabled inside settings (¯\\\\_(ツ)_/¯)\n* Improved desktop mode switch to feel and look more like the other buttons\n* Switched to libCSColorPicker\n* Reworked Force HTTPS Exceptions and Pinned Locations preferences (seperate plists no longer needed)\n* \"safaripluscolorprefs.plist\" and \"safariplusprefsOther.plist\" are automatically merged into \"safariplusprefs.plist\" on first launch of Safari or Preferences\n* Reworked some color settings to be less hacky\n* Many more bug fixes and improvements (more than I can remember)",
+					"markdown": "**New Features:**\n* Locked Tabs\n* Biometric Protection\n* Custom Start Site\n* Show Tab Count\n* Toolbar Reordering Options\n* Top Bar Reading Button Color\n* Top Bar Tab Bar Close Button Color\n* Tab Switcher Toolbar Background Color \n\n\u2063\n\n**Improvements:**\n* Reworked settings, added killswitch\n* Fixed status bar notifications being too big on some devices\n* Fixed choppy animation when using the \"Open in opposite mode\" option\n* Fixed desktop mode being always on when \"Desktop Mode Switch\" is disabled inside settings (¯\\\\_(ツ)_/¯)\n* Improved desktop mode switch to feel and look more like the other buttons\n* Switched to libCSColorPicker\n* Reworked Force HTTPS Exceptions and Pinned Locations preferences (seperate plists no longer needed)\n* \"safaripluscolorprefs.plist\" and \"safariplusprefsOther.plist\" are automatically merged into \"safariplusprefs.plist\" on first launch of Safari or Preferences\n* Reworked some color settings to be less hacky\n* Many more bug fixes and improvements (more than I can remember)",
 					"useSpacing": true
 				},
 				{
