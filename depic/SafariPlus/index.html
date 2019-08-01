@@ -18,31 +18,60 @@
 
 	<main id="content">
 		<h2 role="header">Description</h2>
+
 		<ul>
 			<li>
-				<p>Various enhancements to Safari<br><br>
+				<p>Safari by itself is great mobile browser but it lacks some features. That's where Safari Plus comes into play.<br><br>
 
-					This tweak does nothing by default, check Preferences to enable each feature individually.<br><br>
+					Safari Plus features a lot of stuff, ranging from small usability improvements to extensive new features.<br>
+					Additionally, it also adds several options to customize Safari to your liking.<br><br>
 
-					Features:<br><br>
+					Each feature can be toggled on or off on demand inside settings.<br><br>
 
-					- Force HTTPS with configurable exception sites<br>
-					- Have both "Open in New Tab" and "Open in Background" options available<br>
-					- New Option to open long pressed link in opposite surfing mode<br>
-					- Upload any file from your phone through a file picker<br>
-					- Enhanced Downloads: Download files to a local directory and more!<br>
-					- Switch desktop mode globally through a switch<br>
-					- Long press on suggestions to insert them into the URL bar<br>
-					- Change to preferred surfing mode on start / resume / opening of external link<br>
-					- Close all tabs from preferred surfing mode(s) on exit / minimization of Safari<br>
-					- Clear browser data on exit / minimization of Safari<br>
-					- Configurable swipe gestures on URL bar<br>
-					- Fullscreen scrolling<br>
-					- Lock top and bottom bar in place (when scrolling)<br>
-					- Disable private surfing<br>
-					- Change (almost) any color of the Safari interface<br>
-					- Always open clicked links in new Tab<br>
-					- Suppress a dialog that appears when accessing a "mailto" URL through a WebClip on iOS 10</p>
+					A full feature list can be found below.<br><br>
+
+					<b>Privacy</b><br>
+					• Force HTTPS (+ configurable exception sites)<br>
+					• Locked Tabs - Adds a lock-switch to every tab inside the tab switcher that, when enabled, prevents the specific tab from being closed until the switch is disabled again<br>
+					• Biometric Protection - Require TouchID / FaceID verification for switching browsing modes, locking tabs, unlocking tabs or accessing locked tabs<br><br>
+
+					<b>Uploads & Downloads</b><br>
+					• Upload Any File - An additonal option to the document sheet that can be used to upload any file on your root file system<br>
+					• Download Manager - Extensive enhancements to the downloading functionality of Safari, check out the preference page for more detailed info<br><br>
+
+					<b>Usability</b><br>
+					• Both Link Opening Options - Have the "Open in Background" option and the "Open in New Tab" option available alongside each other<br>
+					• Open in Opposite Mode Option - Adds an option to open a long pressed URL in the respective other browsing mode<br>
+					• Desktop Mode Switch - A switch inside tab switcher that can be used to toggle desktop mode on / off globally<br>
+					• Tab Manager - An easy way to batch-export, batch-close and batch-add tabs<br>
+					• Disable Tab Limit - Disables the default tab limit (varies between devices)<br>
+					• Always Open Links in New Tab (+ Option to always open in background)<br>
+					• Fully Disable Private Browsing<br>
+					• Insert Suggestion on Long Press - Insert a search suggestion into the URL bar by long pressing it<br>
+					• Suggestion Insert Button - Insert a search suggestion into the URL bar by pressing a button on the right of it<br>
+					• Show Tab Count - Shows the tab count on the button that opens the tab switcher<br>
+					• Fullscreen Scrolling - Hide the top bar when scrolling down<br>
+					• Lock Bars - Lock the top and buttom bar into place while scrolling<br>
+					• Show Full Site URL - Always show the full URL in the top bar<br>
+					• Suppress Mailto Dialog (on iOS 10 and above)<br><br>
+
+					<b>Actions</b><br>
+					• Change Browsing Mode on App Start, App Resume, External Link Opened<br>
+					• Auto Close Tabs on Minimazion or Close of Safari<br>
+					• Auto-Clear Browser Data on Minimization or Close of Safari<br><br>
+
+					<b>Gestures</b><br>
+					• URL Bar Swipe Left, Right, Down Gestures<br>
+					• Toolbar Swipe Left, Right, Up / Down Gestures<br>
+					• Many available actions to trigger<br><br>
+
+					<b>Customization</b><br>
+					• Color Settings for Top Toolbar, Bottom Toolbar and Tab Switcher for both normal and private browsing modes<br>
+					• Change the button order of the Top and Bottom Toolbars (also includes additonal buttons)<br>
+					• Custom Start Site - Change the default favorites view when opening a new tab to a specified URL<br>
+					• Custom Start Engine - Change the search engine of Safari to any URL<br>
+					• Custom User Agent - Change the user agent for both mobile and desktop mode<br>
+				</p>
 			</li>
 		</ul>
 
@@ -50,19 +79,65 @@
 
 		<ul>
 			<li>
-				<p>iOS 8.0 - 12.1.2</p>
+				<p>iOS 8.0 - 12.2</p>
 			</li>
 		</ul>
 
-		<h2 role="header">What's new? (1.6.8)</h2>
-
+		<h2 role="header">What's new? (1.7)</h2>
 		<ul>
 			<li>
-				<p>• A12 / arm64e support<br>
-					• If RocketBootstrap does not work, fall back to just using the sandbox container of Safari as the default download path<br>
-					• Added an option to disable the communication error alert that normally appears when RocketBootstrap does not work<br>
-					• Switch to libCSColorPicker
-				</p>
+				<p><b>New Features (See depiction for more info):</b><br>
+					• Locked Tabs<br>
+					• Biometric Protection<br>
+					• Tab Manager<br>
+					• Suggestion Insert Button (on 12.1.4 and below as 12.2 already adds this feature natively)<br>
+					• Show Tab Count<br>
+					• Show Full Site URL<br>
+					• Swipe Gestures for Toolbar<br>
+					• Top Bar Reading Button Color<br>
+					• Top Bar Tab Bar Close Button Color<br>
+					• Tab Switcher Toolbar Background Color<br>
+					• Toolbar Reordering Options<br>
+					• Custom Start Site<br>
+					• Custom User Agent (Mobile + Desktop)<br>
+					• Option for large titles (on iOS 11 and above)<br><br>
+
+					<b>Improvements:</b><br>
+					• 12.2 support<br>
+					• Reorganized and simplified preferences, added killswitch<br>
+					• Correct preference header aspect ratio on bigger devices<br>
+					• Unsupported options will now automatically be hidden (based on the iOS version you're running)<br>
+					• It is now possible to manage Force HTTPS exceptions from inside Safari by long pressing the reload button<br>
+					• Reworked Force HTTPS Exceptions and Pinned Locations preferences (seperate plists no longer needed)<br>
+					• "safaripluscolorprefs.plist" and "safariplusprefsOther.plist" are automatically merged into "safariplusprefs.plist" on the first launch of Safari or the Safari Plus preference bundle<br>
+					• Many icons have been redone to look better<br>
+					• Fixed downloads becoming stuck<br>
+					• If a download fails due to a connection error, it now cancels and a "Download Error" notification shows (previously it would just become stuck)<br>
+					• The UI for download cells has been fully rewritten, now supports dynamic type<br>
+					• Preview actions for way more files inside file browser (text files, pdf, images, etc.)<br>
+					• Better file icons<br>
+					• Better directory icon (only on iOS 12 and above, 11 and below still use the old one)<br>
+					• Added an option to auto save finished downloads to the media library<br>
+					• Added an option to prevent downloads from being saved to the history if they're started from private browsing mode<br>
+					• Added an option to have a progress bar under the downloads button inside the toolbar (inspired by iOS 13), enabled by default<br>
+					• Added an plus button inside the top bar of the downloads list to start downloads manually from an URL<br>
+					• The restart button on finished downloads has been improved to use the code related to manual downloading, it no longer opens the website and rather restarts the download directly now<br>
+					• Now shows an alert when a download is attempted to be started under cellular data while the 'Only Download on Wifi' option is enabled<br>
+					• The "copy link" action has been enabled on all downloads, previously it was only available on video downloads<br>
+					• Reload animations inside the file browser and the downloads list are now way more smooth<br>
+					• The show button on finished downloads will now only show if the file exists<br>
+					• The show button on finished downloads has been improved to scroll to the file and highlight it inside it's directory<br>
+					• Fixed a bug that would sometimes cause the file browser to not refresh correctly<br>
+					• Fixed a crash when multiple downloads end at the same time<br>
+					• Fixed status bar notifications being too big on some devices<br>
+					• Fixed a bug that could cause a video file to be randomly deleted under certain rare circumstances when tapped (let's hope this never actually happened outside of my testing environment?)<br>
+					• Renamed 'Second 'Open in new Tab' option to 'Both Tab Open Actions' and changed it's behaviour accordingly<br>
+					• Improved the animation for the "Open in opposite mode" option<br>
+					• Improved desktop mode switch to behave more like the other buttons<br>
+					• Improved desktop mode behaviour<br>
+					• Fixed suppress mailto alert option for iOS 12 and above<br>
+					• Color settings have been largely reworked and are now much less hacky<br>
+					• Many more bug fixes and improvements, too many to list
 			</li>
 			<li>
 				<a href="./changelog.html" target="_blank" role="button">Full Changelog</a>
