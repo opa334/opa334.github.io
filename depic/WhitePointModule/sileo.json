@@ -20,7 +20,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Latest Version",
-					"text": "1.0"
+					"text": "1.1"
 				},
 				{
 					"class": "DepictionTableButtonView",
@@ -51,7 +51,25 @@
 			[
 				{
 					"class": "DepictionSubheaderView",
-					"title": "Version 1.0",
+					"title": "1.1",
+					"useBoldText": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "* Improved module icon\n* Added option to invert slider\n* Internal code improvements",
+					"useSpacing": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "August 19, 2019",
+					"useBoldText": false
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "1.0",
 					"useBoldText": true
 				},
 				{
