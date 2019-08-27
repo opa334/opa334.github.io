@@ -83,22 +83,16 @@
 			</li>
 		</ul>
 
-		<h2 role="header">What's new? (1.7.1)</h2>
+		<h2 role="header">What's new? (1.7.2)</h2>
 		<ul>
 			<li>
-				• Adds support for downloading HLS (m3u8) streams on iOS 10 and above<br>
-				• Fix a bug that could cause a download to fail when pausing and resuming it when it does not have any progress yet<br>
-				• Fix an extremely rare race condition that could cause Safari to crash when a download ends<br>
-				• Ditch libbulletin in favour of native notifications (archived through a SpringBoard hook that makes it think that Safari has the right entitlements to send notifications)<br>
-				• Add an option to make the application badge reflect the amount of running downloads (enabled by default)<br>
-				• Tab manager can no longer bypass the biometric protection for (un)locking tabs<br>
-				• Fix 'Switch Browsing Mode' biometric protection being unreliable on iOS 10.3-10.3.4<br>
-				• Make file browser load times over five times faster by minimizing communication between Safari and SpringBoard<br>
-				• Add an option under Tweak Specific Settings to make the file browser sort directories above files<br>
-				• Fix 'Add to Force HTTPS exceptions' option on refresh button long press if no exceptions have previously been added inside settings<br>
-				• Fix 'Status Bar Color' option not working on iOS 12.2 and above<br>
-				• Fix 'Supress Mailto Alert' option not working on iOS 12.2 and above<br>
-				• Improved icons of download related buttons
+				• Video downloading should now support every site<br>
+				• Fix a bug with HLS downloads where canceling it would still save the unfinished movpkg to the target location<br>
+				• Fix an incredibly rare crash when long pressing links<br>
+				• Fix an issue where the FullSafari detection would incorrectly trigger on 12.2 and above, causing the addition of a plus button in the toolbar without having it enabled in settings<br>
+				• The 'Fullscreen Scrolling' option has been improved to use a better method on some supported versions, as a side effect, the option also works on iOS 8 now<br>
+				• The 'Custom Search Engine' option now displays the search query in the top bar like the stock engines do<br>
+				• Switch to MIT license
 			</li>
 			<li>
 				<a href="./changelog.html" target="_blank" role="button">Full Changelog</a>
