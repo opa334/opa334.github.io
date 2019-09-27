@@ -384,6 +384,45 @@ Depiction: https://opa334.github.io/depic/SafariPlus/index.html
 Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
 Name: Safari Plus
 
+Package: com.opa334.safariplus
+Version: 1.7.6
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 4764
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.opa334.safariplus_1.7.6_iphoneos-arm.deb
+Size: 993084
+MD5sum: b4a0bb2e54fe08731bc0f42111f888ea
+SHA1: fbb23b9965c988c56fb62595ba7b6ae689c94968
+SHA256: 900537d2d02281f324c5b0f71d08fc35c41a70bd8749c9f649066ed4c04646fa
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus
+
+Package: com.opa334.safariplussnakeoil
+Version: 1.7.6
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 4764
+Depends: firmware (>=8.0), mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap
+Conflicts: com.opa334.safariplus
+Filename: ./debs/com.opa334.safariplussnakeoil_1.7.6_iphoneos-arm.deb
+Size: 993456
+MD5sum: 3e59b348b2554b11153bf93fafa6d10b
+SHA1: 659a7199ecb4fecf76f69544adba5b914bdd7187
+SHA256: 7f75ac4d77026768652868420427c0f951b608c0ed2ba36790399b0ca51f1eec
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus (Cepheiless)
+
 Package: com.opa334.whitepointmodule
 Version: 1.0
 Architecture: iphoneos-arm
