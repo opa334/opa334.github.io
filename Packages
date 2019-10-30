@@ -89,6 +89,22 @@ Author: opa334
 Depiction: https://opa334.github.io/depic/NoSubstitute12/index.html
 Name: NoSubstitute12
 
+Package: com.opa334.notrecording
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 416
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Filename: ./debs/com.opa334.notrecording_1.0_iphoneos-arm.deb
+Size: 16848
+MD5sum: f253577f4c52a9a27d9f44a19f1b6be6
+SHA1: 77de766802fc786ea5fd71a6fd463cc21941b8d2
+SHA256: 82116945ec991a5bf3c4a72b501351544f3284170c67c99ae3f6053cbb14a714
+Section: Tweaks
+Description: Spoof screen recording detection!
+Author: opa334
+Name: NotRecording
+
 Package: com.opa334.safariplus
 Version: 1.6.6
 Architecture: iphoneos-arm
