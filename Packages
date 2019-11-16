@@ -124,6 +124,23 @@ Description: Spoof screen recording detection!
 Author: opa334
 Name: NotRecording
 
+Package: com.opa334.powerloghelperdfix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.opa334.powerloghelperdfix_1.0_iphoneos-arm.deb
+Size: 3344
+MD5sum: 05378ef29b1af1723a1ef69a146e17f8
+SHA1: 28afd1239a2fbd18da6efffba7ae25dc11a4539e
+SHA256: 2e3fe2a753ae5514b1f81cb322c3736ecb5109256f47beaa3532aaff134b79d5
+Section: Tweaks
+Description: Block tweak injection into powerlogHelperd!
+Author: opa334
+Depiction: https://opa334.github.io/depic/powerlogHelperdFix/index.html
+Name: powerlogHelperdFix
+
 Package: com.opa334.safariplus
 Version: 1.6.6
 Architecture: iphoneos-arm
