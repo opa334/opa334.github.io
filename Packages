@@ -89,6 +89,23 @@ Author: opa334
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
+Package: com.opa334.choicy
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 524
+Depends: mobilesubstrate, applist
+Filename: ./debs/com.opa334.choicy_1.0.1_iphoneos-arm.deb
+Size: 64884
+MD5sum: aac69059b417d38631ffd4b0ee47f95d
+SHA1: 4886d63dab4d487a5563f51b8586d1aa5a189bf4
+SHA256: a60784bae768644696ed79d6b5e06804debc6f052e80ed111de033c6ff046c3c
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
 Package: com.opa334.fastsafaripw
 Version: 1.0
 Architecture: iphoneos-arm
