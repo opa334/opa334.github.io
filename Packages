@@ -72,6 +72,23 @@ Description: Support tweak for CC modules!
 Author: opa334
 Name: CCSupport
 
+Package: com.opa334.choicy
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 524
+Depends: mobilesubstrate, applist
+Filename: ./debs/com.opa334.choicy_1.0_iphoneos-arm.deb
+Size: 65034
+MD5sum: d625b4f21e588769ebbf0dad3d19bdf7
+SHA1: 57a98e5d7aa89795aca9a43dfd068d82fc2564de
+SHA256: f9d4eb8449225bf1941f6725cd7073f8148467515e4185e6d15fe1860e65fd06
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
 Package: com.opa334.fastsafaripw
 Version: 1.0
 Architecture: iphoneos-arm
