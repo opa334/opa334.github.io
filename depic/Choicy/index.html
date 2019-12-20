@@ -21,9 +21,13 @@
 
 		<ul>
 			<li>
-				<p>Choicy adds the ability to individually configure tweak injection for applications and daemons. The configuration works by setting either a blacklist of tweaks not to load or a whitelist of the tweaks to exclusively load. Alternatively, it is
-					also possible to disable tweak injection for an individual process altogether. There is also an option to add an application shortcut to launch the application with or without tweaks once.<br><br>
-					Configure from settings.
+				<p>An advanced tweak configurator!<br><br>
+
+					Features:<br>
+					• Disable tweak injection for every process individually<br>
+					• Configure each tweak dylib for every process individually<br>
+					• Disable tweaks globally (with the ability to set exceptions for individual processes)<br>
+					• Option for an application shortcut to launch the application with or without tweaks once
 				</p>
 			</li>
 		</ul>
@@ -32,7 +36,7 @@
 
 		<ul>
 			<li>
-				<p>iOS 10 and above</p>
+				<p>iOS 10-13</p>
 			</li>
 		</ul>
 
@@ -47,6 +51,16 @@
 			</li>
 			<li>
 				<p>1.0.2:<br>• Small tweak detection improvements</p>
+			</li>
+			<li>
+				<p>1.1:<br>
+					• Add an option for global tweak configuration (with options for process specific backlists/whitelists to overwrite the global one)<br>
+					• Daemons that no tweak injects into are automatically hidden now<br>
+					• 'Recommeded Daemons' are determined at runtime now by checking if they link against UIKit (previously this used to be a hardcoded list of daemons)<br>
+					• Process specific tweak lists should now be 100% correct (uses a mach-o / dyldSharedCache parser internally)<br>
+					• Add a section for hidden applications at the bottom of the application list<br>
+					• Allow the Settings app to be configured (previously it was hidden)<br>
+				</p>
 			</li>
 		</ul>
 
