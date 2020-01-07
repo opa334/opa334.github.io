@@ -884,3 +884,22 @@ Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
 Name: White Point Module
 Sileodepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
 
+Package: com.opa334.whitepointmodule
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 184
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 11.0)
+Filename: ./debs/com.opa334.whitepointmodule_1.2.2_iphoneos-arm.deb
+Size: 16964
+MD5sum: 29fa27d72d9875bf5252cb2d0d74dc06
+SHA1: 7466e0759b7f580f9d20928c23a724095bd4d5a2
+SHA256: 2b6891d8e0096f795ab12b467c4b0cb1a55a1c6ad07b1d3a18c3868f53f2dbbc
+Section: Control Center (Modules)
+Description: Reduce White Point from Control Center!
+Author: opa334
+Depiction: https://opa334.github.io/depic/WhitePointModule/index.html
+Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
+Name: White Point Module
+Sileodepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
+
