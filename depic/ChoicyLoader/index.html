@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>ChoicyLoader</title>
+
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+
+	<link rel="stylesheet" href="../../assets/ios7.min.css">
+	<script src="../../assets/ios7.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>ChoicyLoader</h1>
+	</header>
+
+	<main id="content">
+		<h2 role="header">Description</h2>
+
+		<ul>
+			<li>
+				<p>A hacky workaround to always load Choicy first. Renames Substrate / Substitute related files, <b>use at your own risk</b>.<br>
+					On some devices, Substrate / Substitute does not load tweaks alphabetically, so Choicy cannot load first and therefore not prevent other tweaks from loading.<br>
+					This package renames /usr/lib/substrate/SubstrateLoader.dylib or /usr/lib/substitute-loader.dylib to SubstrateLoader_orig.dylib / substitute_loader_orig.dylib, it then places a symlink to /usr/lib/ChoicyLoader.dylib in place of the original file.<br>
+					ChoicyLoader loads Choicy first and then the SubstrateLoader_orig.dylib / substitute_loader_orig.dylib file, resulting in Choicy getting loaded first no matter what.<br>
+					It also adds a dpkg trigger to automatically reapply everything when Substrate or Substitute updates and also reverts everything when uninstalling.
+				</p>
+			</li>
+		</ul>
+
+		<h2 role="header">Version History</h2>
+
+		<ul>
+			<li>
+				<p>1.0: Initial Release</p>
+			</li>
+		</ul>
+
+		<h2 role="header">Other</h2>
+
+		<ul>
+			<li>
+				<a href="https://github.com/opa334/ChoicyLoader" target="_blank" role="button">Source Code</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/opa334dev" target="_blank" role="button">Follow me on Twitter</a>
+			</li>
+			<li>
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=opa334@protonmail.com&item_name=iOS%20Tweak%20Development" target="_blank" role="button">Donate</a>
+			</li>
+		</ul>
+
+	</main>
+</body>
+
+</html>
