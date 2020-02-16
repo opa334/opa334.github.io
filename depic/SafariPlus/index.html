@@ -79,23 +79,17 @@
 
 		<ul>
 			<li>
-				<p>iOS 8.0 - 13.3</p>
+				<p>iOS 8.0 - 13.3.1</p>
 			</li>
 		</ul>
 
-		<h2 role="header">What's new? (1.7.9 + 1.7.9-2 + 1.7.9-3)</h2>
+		<h2 role="header">What's new? (1.7.10)</h2>
 		<ul>
 			<li>
-				• Fix random crashes on iOS 10.2 and below<br>
-				• Fix startup crash on iOS 10 and below<br>
-				• Color settings have been reimplemented and reenabled on iOS 13, now with light/dark mode support<br>
-				• Fix some legibility issues with dark mode on iOS 13<br>
-				• Fix some features like previewing files and saving videos to camera roll being broken on checkra1n due to incomplete / inconsistent (?) sandbox patches<br>
-				• Fix RocketBootstrap error alert not appearing on iOS 13<br>
-				• Fix some crashes related to video downloading on iOS 13(.3?)<br>
-				• Fix mode switch actions not working in some cases on iOS 13<br>
-				• Fix video downloading sometimes receiving the wrong URL<br>
-				• Internal code improvements
+				• Fix mobileprovision profiles not being installable when 'Download Manager' is enabled
+				• Reduce memory usage when merging movpkg files significantly, fixes the entire system freezing on checkra1n when merging bigger files
+				• Movpkg merging now supports movpkg files that contain more than one track, the tracks will be saved to separate files
+				• Added an option inside tweak specific settings to disable pull to refresh inside the file browser
 			</li>
 			<li>
 				<a href="./changelog.html" target="_blank" role="button">Full Changelog</a>

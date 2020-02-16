@@ -438,6 +438,25 @@ Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
 Name: Safari Plus
 
 Package: com.opa334.safariplus
+Version: 1.7.10
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 5240
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap
+Filename: ./debs/com.opa334.safariplus_1.7.10_iphoneos-arm.deb
+Size: 1105530
+MD5sum: e73ffc433e1203cc27e84f87d6c4aafd
+SHA1: a88421327e6feafecff8b12cd505b16f2715c68f
+SHA256: 65e374bb0f37647a10e00206ae2ebc9c55704c071b998318ed0f229f633687a3
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus
+
+Package: com.opa334.safariplus
 Version: 1.7.2
 Architecture: iphoneos-arm
 Maintainer: opa334 <opa334@protonmail.com>
@@ -740,6 +759,26 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/SafariPlus/index.html
 Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
 Name: Safari Plus
+
+Package: com.opa334.safariplussnakeoil
+Version: 1.7.10
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 5188
+Depends: firmware (>=8.0), mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap
+Conflicts: com.opa334.safariplus
+Filename: ./debs/com.opa334.safariplussnakeoil_1.7.10_iphoneos-arm.deb
+Size: 1086084
+MD5sum: 607b24bf52da1b87213e62edb8b2533e
+SHA1: c6ff3cf21ea6566b9c54910fe80778b575bac6be
+SHA256: e7074c8ca0d6787cf4e0ee462484ec79efe6d82d99499a0ead65213bb965c4e9
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus (Cepheiless)
 
 Package: com.opa334.safariplussnakeoil
 Version: 1.7.6
