@@ -79,19 +79,18 @@
 
 		<ul>
 			<li>
-				<p>iOS 8.0 - 13.3.1</p>
+				<p>iOS 8.0 - 13.4</p>
 			</li>
 		</ul>
 
-		<h2 role="header">What's new? (1.7.10 / 1.7.10-2)</h2>
+		<h2 role="header">What's new? (1.7.11)</h2>
 		<ul>
 			<li>
-				• Work around an issue where certain file operations would not work unc0ver A12/A13<br>
-				• Add simplified chinese localization, thanks to @fffdmin on Twitter<br>
-				• Fix mobileprovision profiles not being installable when 'Download Manager' is enabled<br>
-				• Reduce memory usage when merging movpkg files significantly, fixes the entire system freezing on checkra1n when merging bigger files<br>
-				• Movpkg merging now supports movpkg files that contain more than one track, the tracks will be saved to separate files<br>
-				• Added an option inside tweak specific settings to disable pull to refresh inside the file browser
+				• Make sure the target directory of a download exists before starting it.
+				• Reuse the filename of a finished download when restarting it
+				• Fix a potential crash on iOS 13.4 (untested)
+				• Hide the 'Force Native Player' option on non-iPad devices
+				• Fix a crash that would happen on iOS 13 when opening links in external applications while the 'Always Open Links in New Tab' option was enabled
 			</li>
 			<li>
 				<a href="./changelog.html" target="_blank" role="button">Full Changelog</a>
