@@ -499,10 +499,10 @@ Maintainer: opa334 <opa334@protonmail.com>
 Installed-Size: 5276
 Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap
 Filename: ./debs/com.opa334.safariplus_1.7.11_iphoneos-arm.deb
-Size: 1112776
-MD5sum: 7565566855cc6b3b6912e3edfbefad0b
-SHA1: 043af28585e743b95166a5724d8a4c79f900b5f8
-SHA256: 23edbe2a9f3f4c3fbce0f1a7c84f6b74215b9ee13fe572b6183a63d68efb1f0b
+Size: 1113844
+MD5sum: fd1b00ebf294d0100d455eeb9bc97a9f
+SHA1: e6762b6b36405e3c3ec1f5b919fb925e59947fb3
+SHA256: 14dd6f25d1161f08b904c1aad54e8299d9249877bfe75484dc14d3983b5da1df
 Section: Tweaks
 Homepage: https://opa334.github.io/
 Description: Various enhancements to Safari!
@@ -863,10 +863,10 @@ Installed-Size: 5228
 Depends: firmware (>=8.0), mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap
 Conflicts: com.opa334.safariplus
 Filename: ./debs/com.opa334.safariplussnakeoil_1.7.11_iphoneos-arm.deb
-Size: 1096956
-MD5sum: 7348da9595ab052daea1ce01c1932e10
-SHA1: 479a4ea2f9dd46ca8bbe342be6aef78acd130069
-SHA256: d8fc7be4612ebf9e596d339fac20cadf0fafb4deb8c3c980695b35a927e7de1b
+Size: 1096396
+MD5sum: 9dc42d346ff5866c52a8b76441d6ee60
+SHA1: e8fa0a70f9c28881666c8405a9268337ff3f0214
+SHA256: 158f507a94e61e8258eb88d8462d2999317aead4fe9c82cb8033a5254ac3e7e6
 Section: Tweaks
 Homepage: https://opa334.github.io/
 Description: Various enhancements to Safari!
