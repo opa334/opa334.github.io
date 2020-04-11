@@ -42,57 +42,15 @@
 			</li>
 		</ul>
 
-		<h2 role="header">Version History</h2>
-
+		<h2 role="header">What's new? (1.2)</h2>
 		<ul>
 			<li>
-				<p>1.0: Initial Release</p>
+				• Improve detection of what tweaks inject into a process even more<br>
+				• Change dylib name from "000_Choicy.dylib" to "   Choicy.dylib", now loads even earlier<br>
+				• If Choicy isn't loading first, only grey out the tweaks that load before it instead of disabling the configuration altogether
 			</li>
 			<li>
-				<p>1.0.1:<br>• Fix 3D touch option not appearing on some apps</p>
-			</li>
-			<li>
-				<p>1.0.2:<br>• Small tweak detection improvements</p>
-			</li>
-			<li>
-				<p>1.1:<br>
-					• Add an option for global tweak configuration (with options for process specific backlists/whitelists to overwrite the global one)<br>
-					• Daemons that no tweak injects into are automatically hidden now<br>
-					• 'Recommeded Daemons' are determined at runtime now by checking if they link against UIKit (previously this used to be a hardcoded list of daemons)<br>
-					• Process specific tweak lists should now be 100% correct (uses a mach-o / dyldSharedCache parser internally)<br>
-					• Add a section for hidden applications at the bottom of the application list<br>
-					• Allow the Settings app to be configured (previously it was hidden)<br>
-				</p>
-			</li>
-			<li>
-				<p>1.1.1:<br>
-					• Fix tweak lists being empty in some cases (mainly on 32 bit devices)<br>
-					• Work around an issue with unc0ver on A12 that would cause a lock up when getting the contents of the /usr/libexec by using a different method for it. Unc0ver will receive a fix for this in the future too.<br>
-				</p>
-			</li>
-			<li>
-				<p>1.1.1-2:<br>
-					• Fix a regression introduced in 1.1.1 that fully broke Custom Tweak Configurations (woops)<br>
-				</p>
-			</li>
-			<li>
-				<p>1.1.2:<br>
-					• Fix an issue where tweaks that only filter against classes would not appear in tweak lists and would load into processes even when they should not<br>
-					• Fix a memory leak that could cause some processes to be killed by jetsam in some cases
-				</p>
-			</li>
-			<li>
-				<p>1.1.3:<br>
-					• Improve detection of what tweaks inject into a process a little bit more<br>
-					• Detect if Choicy is loading first and if not, print an error in the preference page
-				</p>
-			</li>
-			<li>
-				<p>1.1.4:<br>
-					• Improve detection of what tweaks inject into a process even more<br>
-					• Don't show 'not loading first' error on substitute based jailbreaks, as this is only an issue with Substrate<br>
-					• Performance improvements
-				</p>
+				<a href="./changelog.html" target="_blank" role="button">Full Changelog</a>
 			</li>
 		</ul>
 

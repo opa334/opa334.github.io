@@ -225,6 +225,23 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
+Package: com.opa334.choicy
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 776
+Depends: mobilesubstrate, applist
+Filename: ./debs/com.opa334.choicy_1.2_iphoneos-arm.deb
+Size: 90150
+MD5sum: dd07ef066d470abe12bad4dd5791251b
+SHA1: 3dfa97c43f854cb86dc38e24cad8ebb2f9644fe3
+SHA256: cc3bf0e684cc161d2656b5f9e505386df43db1dd917f80ee6cb8f25182cc345e
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
 Package: com.opa334.choicyloader
 Version: 1.0
 Architecture: iphoneos-arm
@@ -236,6 +253,23 @@ Size: 20632
 MD5sum: da1781cdf0e44ff51483183bd752bc2f
 SHA1: 20388123389d3ef43b1d78b847f01e96bcb6a92a
 SHA256: 9eb2dc25cff038636b87debc3a0ec2c84fc210616de39a11dfd52f59de1b49bd
+Section: System
+Description: Hacky workaround to always load Choicy first
+Author: opa334
+Depiction: https://opa334.github.io/depic/ChoicyLoader/index.html
+Name: ChoicyLoader
+
+Package: com.opa334.choicyloader
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 244
+Depends: com.opa334.choicy
+Filename: ./debs/com.opa334.choicyloader_1.1_iphoneos-arm.deb
+Size: 21520
+MD5sum: f85e78e9119039541b76ffad735964fb
+SHA1: 1de1a49d7a5a7af451247a507fb2ec2ada0d3f30
+SHA256: 0ca5a13ee836a3bb874973c9eb4f4c1acd9794b8b605136614801ba781876bd1
 Section: System
 Description: Hacky workaround to always load Choicy first
 Author: opa334

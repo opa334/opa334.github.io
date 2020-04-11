@@ -21,11 +21,12 @@
 
 		<ul>
 			<li>
-				<p>A hacky workaround to always load Choicy first. Renames Substrate / Substitute related files, <b>use at your own risk</b>.<br>
-					On some devices, Substrate / Substitute does not load tweaks alphabetically, so Choicy cannot load first and therefore not prevent other tweaks from loading.<br>
-					This package renames /usr/lib/substrate/SubstrateLoader.dylib or /usr/lib/substitute-loader.dylib to SubstrateLoader_orig.dylib / substitute_loader_orig.dylib, it then places a symlink to /usr/lib/ChoicyLoader.dylib in place of the original file.<br>
-					ChoicyLoader loads Choicy first and then the SubstrateLoader_orig.dylib / substitute_loader_orig.dylib file, resulting in Choicy getting loaded first no matter what.<br>
-					It also adds a dpkg trigger to automatically reapply everything when Substrate or Substitute updates and also reverts everything when uninstalling.
+				<p><b>DO NOT INSTALL ON JAILBREAKS THAT DON'T USE SUBSTRATE!</b><br>
+					A hacky workaround to always load Choicy first. Renames Substrate related files, <b>use at your own risk</b>.<br>
+					On some devices, Substrate does not load tweaks alphabetically, so Choicy cannot load first and therefore not prevent other tweaks from loading.<br>
+					This package renames /usr/lib/substrate/SubstrateLoader.dylib to SubstrateLoader_orig.dylib, it then places a symlink to /usr/lib/ChoicyLoader.dylib in place of the original file.<br>
+					ChoicyLoader loads Choicy first and then the SubstrateLoader_orig.dylib file, resulting in Choicy getting loaded first no matter what.<br>
+					It adds a dpkg trigger to automatically reapply everything when Substrate is updated and also reverts everything when uninstalling.
 				</p>
 			</li>
 		</ul>
@@ -34,7 +35,15 @@
 
 		<ul>
 			<li>
-				<p>1.0: Initial Release</p>
+				<p><b>1.0:</b><br>
+					Initial Release</p>
+			</li>
+			<li>
+				<p><b>1.1:</b><br>
+					• Support for Choicy 1.2<br>
+					• Remove support for sbigners substitute (turns out ChoicyLoader is not needed on it)<br>
+					• Fix uninstallation on unsupported jailbreaks like Chimera (unsupported because it also does not need this workaround)
+				</p>
 			</li>
 		</ul>
 
