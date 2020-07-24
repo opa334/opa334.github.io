@@ -42,10 +42,12 @@
 			</li>
 		</ul>
 
-		<h2 role="header">What's new? (1.2.3)</h2>
+		<h2 role="header">What's new? (1.2.4)</h2>
 		<ul>
 			<li>
-				• Fix inaccurate tweak list on SpringBoard caused by AppList not providing an executable path for SpringBoard
+				• Make macho parser respect rpath, this should fix some rare instances where the tweak list of some apps would be empty<br>
+				• Memory usage has been improved by using better methods of getting the application identifier and executable path (credits to saurik)<br>
+				• Added icons for the "Launch without Tweaks" / "Launch with Tweaks" actions
 			</li>
 			<li>
 				<a href="./changelog.html" target="_blank" role="button">Full Changelog</a>
