@@ -72,6 +72,26 @@ Description: Support tweak for CC modules!
 Author: opa334
 Name: CCSupport
 
+Package: com.opa334.ccsupport
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 276
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.2.3_iphoneos-arm.deb
+Size: 37420
+MD5sum: f04cb89ad6f3c2232244c5c521e27bd1
+SHA1: 17b0fa678e08d15a4a3ad4122ab4537177f964fc
+SHA256: bc55699785eaf8042449cbb90ee360697cff0878311647671a2ec422128a2fc6
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
 Package: com.opa334.choicy
 Version: 1.0
 Architecture: iphoneos-arm
