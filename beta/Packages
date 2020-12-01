@@ -21,15 +21,15 @@ Maintainer: opa334 <opa334@protonmail.com>
 Installed-Size: 5500
 Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect
 Filename: ./debs/com.opa334.safariplus_1.7.14~b1_iphoneos-arm.deb
-Size: 1177428
-MD5sum: 5f721e3be96403220ff135b6369e8839
-SHA1: 34ade59661fa67aff269bfe4a32c9ffb16f3842f
-SHA256: 331ec126ed47de96365ed31be5951731988ed533aba0b62faaf41c6ed3a5df12
+Size: 1175242
+MD5sum: 78e08adaa23792ce632650f022216491
+SHA1: bfba73edd0963e39a15d604452947f1f1f55cb40
+SHA256: ed122c1119ad9395ca30a7da072eaf78e5ba7dc4ce97bcebd514c7cdd8029ee0
 Section: Tweaks
 Homepage: https://opa334.github.io/
 Description: Various enhancements to Safari!
 Author: opa334 <opa334@protonmail.com>
-Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Depiction: https://opa334.github.io/beta/depic/SafariPlus/index.html
 Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
 Name: Safari Plus
 
