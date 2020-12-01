@@ -1,3 +1,38 @@
+Package: com.opa334.libundirect
+Version: 0.9
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 264
+Filename: ./debs/com.opa334.libundirect_0.9_iphoneos-arm.deb
+Size: 8328
+MD5sum: 5010fe9ebb5c287161cf4d99a787ab02
+SHA1: db7f4599d8d938382844b722c9ea8f9841d5716f
+SHA256: 3197707e9973ccdb609ca4e7bba97362dff16a0cb263f4bcfeda92d23a57203f
+Section: System
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Author: opa334
+Name: libundirect
+
+Package: com.opa334.safariplus
+Version: 1.7.14~b1
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 5500
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect
+Filename: ./debs/com.opa334.safariplus_1.7.14~b1_iphoneos-arm.deb
+Size: 1177428
+MD5sum: 5f721e3be96403220ff135b6369e8839
+SHA1: 34ade59661fa67aff269bfe4a32c9ffb16f3842f
+SHA256: 331ec126ed47de96365ed31be5951731988ed533aba0b62faaf41c6ed3a5df12
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus
+
 Package: com.opa334.safariplus
 Version: 1.7~b1
 Architecture: iphoneos-arm
