@@ -486,6 +486,23 @@ Author: opa334
 Depiction: https://opa334.github.io/depic/ChoicyLoader/index.html
 Name: ChoicyLoader
 
+Package: com.opa334.choicyloader
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 228
+Depends: com.opa334.choicy
+Filename: ./debs/com.opa334.choicyloader_1.2.2_iphoneos-arm.deb
+Size: 21216
+MD5sum: 9a120f6306072fbcc131510925531a61
+SHA1: 215f246f3b07ddc05e285791bb816c3cf863dfd1
+SHA256: 07eb972058c63d79776361bf9c6a5c35a5d43d2834a003e8397b9e436985621e
+Section: System
+Description: Hacky workaround to always load Choicy first
+Author: opa334
+Depiction: https://opa334.github.io/depic/ChoicyLoader/index.html
+Name: ChoicyLoader
+
 Package: com.opa334.fastsafaripw
 Version: 1.0
 Architecture: iphoneos-arm
