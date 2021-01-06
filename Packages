@@ -833,10 +833,10 @@ Maintainer: opa334 <opa334@protonmail.com>
 Installed-Size: 5500
 Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.0) | firmware (<<14.0)
 Filename: ./debs/com.opa334.safariplus_1.7.14_iphoneos-arm.deb
-Size: 1177956
-MD5sum: a060a9ff649922fc5fd19fe88a64176b
-SHA1: a2ce4c43c71b279e530620c08bf17f0a85063d71
-SHA256: 5d28308d00d23f3c1e892dfff55fb51ab1944562c0aee2b7cc60f014b2e9039f
+Size: 1177638
+MD5sum: 63706db591e4e4cde5827ecd6fba401c
+SHA1: 63f2afc62ab2e5c6b8ecb3b0d0b41638d764616c
+SHA256: c29908338f4942a114103b59901a63685db86381a0f2af0dc4716e3eedcfcf9a
 Section: Tweaks
 Homepage: https://opa334.github.io/
 Description: Various enhancements to Safari!
@@ -1257,10 +1257,10 @@ Installed-Size: 5500
 Depends: firmware (>=8.0), mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap
 Conflicts: com.opa334.safariplus
 Filename: ./debs/com.opa334.safariplussnakeoil_1.7.14_iphoneos-arm.deb
-Size: 1165016
-MD5sum: 0eda6ac619d5a75b545ffd19ebc0681f
-SHA1: 1907c83e7ae430e0852defd5efad7fc7407f6cf3
-SHA256: dbd79586e390d42dd30bb23720bad7d738d0b18e83a72209540728b26a262720
+Size: 1165912
+MD5sum: d494fab20f4d1aac7ad713d4f5b43d21
+SHA1: 15583a81a453513828f73336f7242342fcc2b6ea
+SHA256: cd432e8eaeffee1eea614b2a9179e9053b5389ef5414954a1ec8368807786c9f
 Section: Tweaks
 Homepage: https://opa334.github.io/
 Description: Various enhancements to Safari!
@@ -1503,3 +1503,4 @@ Depiction: https://opa334.github.io/depic/WhitePointModule/index.html
 Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
 Name: White Point Module
 Sileodepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
+
