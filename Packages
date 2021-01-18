@@ -1366,6 +1366,25 @@ Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
 Name: Safari Plus (Cepheiless)
 
 Package: com.opa334.safariplussnakeoil
+Version: 1.7.14-5
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 5500
+Depends: firmware (>=8.0), mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.0) | firmware (<<14.0)
+Filename: ./debs/com.opa334.safariplussnakeoil_1.7.14-5_iphoneos-arm.deb
+Size: 1165452
+MD5sum: d1b42eec8d754dffd726307bb68fb35d
+SHA1: e0ca9f35e9cffe52b1df89d2c6bb18ed7e1a3e1f
+SHA256: 34ac856bc5fcc8b87cf5b70e4533ccd61359c363fddc7bf5c88d1939c3922908
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus (Cepheiless)
+
+Package: com.opa334.safariplussnakeoil
 Version: 1.7.6
 Architecture: iphoneos-arm
 Maintainer: opa334 <opa334@protonmail.com>
