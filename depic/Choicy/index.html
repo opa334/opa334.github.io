@@ -42,16 +42,14 @@
 			</li>
 		</ul>
 
-		<h2 role="header">What's new? (1.3)</h2>
+		<h2 role="header">What's new? (1.3.1)</h2>
 		<ul>
-			<li>
-				• Add search bar for applications, daemons and global tweak configuration (thanks to a PR by @brendonjkding on GitHub)<br>
-				• Fix custom tweak injection not working on libhooker (iOS 14.1+)<br>
-				• Add a subtitle to tweak cells that shows what package installed the tweak<br>
-				• Add greek localization, thanks to @Greek_Ios_Hack on Twitter<br>
-				• Show an error alert if AppList does not work<br>
-				• Fix application shortcuts not working on iOS 14.0 due to broken version detection
-			</li>
+			<ul>
+				<li>
+					• Don't freeze both "Disable Tweak Injection" and "Custom Tweak Configuration" if a user manages to enable both at the same time<br>
+					• Make absolutely sure PreferenceLoader cannot be disabled by Choicy
+				</li>
+			</ul>
 			<li>
 				<a href="./changelog.html" target="_blank" role="button">Full Changelog</a>
 			</li>
