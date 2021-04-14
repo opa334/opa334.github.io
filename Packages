@@ -639,6 +639,22 @@ Tag: role::developer
 Author: opa334
 Name: libundirect
 
+Package: com.opa334.libundirect
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 264
+Filename: ./debs/com.opa334.libundirect_1.1_iphoneos-arm.deb
+Size: 8232
+MD5sum: 1c714589eae606592cfd86d402ce5845
+SHA1: 1892a8068bf44d5ce6fab51f2663b1136e512474
+SHA256: 76a953a0a4aa8989ff1241b781b06920af2df8a08dfa490e7d627d0a4157e13e
+Section: System
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Author: opa334
+Name: libundirect
+
 Package: com.opa334.nosubstitute12
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1091,6 +1107,25 @@ Size: 1194970
 MD5sum: 83f5d6667e1de8ee843e549385cfc217
 SHA1: 7ea560b25ac1ffc15e1a75a7b55ba391f5c231b4
 SHA256: 64ccaf148a1e5fce231105ce42124238e696c3c43805156cd7d9c67374babe5b
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus
+
+Package: com.opa334.safariplus
+Version: 1.7.16-2
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 5596
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.1) | firmware (<<14.0)
+Filename: ./debs/com.opa334.safariplus_1.7.16-2_iphoneos-arm.deb
+Size: 1195488
+MD5sum: dd93de549b93b92c5ec4078156c6339a
+SHA1: 8fafbc6dbe946682afb8f85004d2c40a885c8538
+SHA256: 31c48f32bb53ab228357d53abdd7b3a61cf6db68db253f1995ce697794a6c1b3
 Section: Tweaks
 Homepage: https://opa334.github.io/
 Description: Various enhancements to Safari!
@@ -1706,6 +1741,25 @@ Size: 1188272
 MD5sum: a1e02b29bf7a07cee6dfae3165f58f20
 SHA1: 611a06ff72e56067c775132d9d6387fabb34f3a3
 SHA256: ca656373b2c2e3a50a6ecb0344b938d3e4518e27e2a0b9d40cfee997803bb98f
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus (Cepheiless)
+
+Package: com.opa334.safariplussnakeoil
+Version: 1.7.16-2
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 5548
+Depends: firmware (>=8.0), mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.1) | firmware (<<14.0)
+Filename: ./debs/com.opa334.safariplussnakeoil_1.7.16-2_iphoneos-arm.deb
+Size: 1188060
+MD5sum: 985fce3adad2f612fc2e07fe6bb19136
+SHA1: 98594a056b507e968fb443d19dd1ad34bac39fd4
+SHA256: b7ddf6f1643093f021fb21459dee4a55ae3d617f4316c1cc771d9b3e8e6f22ac
 Section: Tweaks
 Homepage: https://opa334.github.io/
 Description: Various enhancements to Safari!
