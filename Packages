@@ -689,6 +689,22 @@ Tag: role::developer
 Author: opa334
 Name: libundirect
 
+Package: com.opa334.libundirect
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 296
+Filename: ./debs/com.opa334.libundirect_1.1.2_iphoneos-arm.deb
+Size: 8546
+MD5sum: 98c5b5beb34b7505a472f55baad815f9
+SHA1: 439830c69ed15ca7edae7b5a07afb79cc1485871
+SHA256: 9b77f3e6d2dbab93ff2e02c702d104f6db531932264ae3fbeb53ae5b10f232ac
+Section: System
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Author: opa334
+Name: libundirect
+
 Package: com.opa334.nosubstitute12
 Version: 1.0
 Architecture: iphoneos-arm
