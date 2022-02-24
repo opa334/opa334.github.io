@@ -1427,6 +1427,25 @@ Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
 Name: Safari Plus
 
 Package: com.opa334.safariplus
+Version: 1.7.19-3
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 5660
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.1.3) | firmware (<<14.0)
+Filename: ./debs/com.opa334.safariplus_1.7.19-3_iphoneos-arm.deb
+Size: 1212948
+MD5sum: b9262fb947479eae16f6eedf1c52368c
+SHA1: 9e390228522fd71281651d65551e61f73e719c33
+SHA256: c3d116a1592a63d1ed1a49a92c8125008a843cf7f22721329a7ce2bb26eb04f5
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus
+
+Package: com.opa334.safariplus
 Version: 1.7.2
 Architecture: iphoneos-arm
 Maintainer: opa334 <opa334@protonmail.com>
@@ -2261,6 +2280,25 @@ Size: 1204714
 MD5sum: 1d497dbe0a7353d5259379e02002b69d
 SHA1: 1759b3303b57fdb34b12bfa69b9ac8b405825d1c
 SHA256: 7830f79c01fffa3f871f1528d70408edabb016e865268e54e3b9b31425e20844
+Section: Tweaks
+Homepage: https://opa334.github.io/
+Description: Various enhancements to Safari!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/SafariPlus/index.html
+Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
+Name: Safari Plus (Cepheiless)
+
+Package: com.opa334.safariplussnakeoil
+Version: 1.7.19-3
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 5564
+Depends: firmware (>=8.0), mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.1.3) | firmware (<<14.0)
+Filename: ./debs/com.opa334.safariplussnakeoil_1.7.19-3_iphoneos-arm.deb
+Size: 1203654
+MD5sum: 6b470ca76445809360e5ef8ee42ebbd9
+SHA1: 9b0636aa5251c81eaa77c052d82481a532f7c462
+SHA256: 6bc083fcdaf4926157a4a4b1e989e30de3e962d95f2e0ab173dd906cbefdbe50
 Section: Tweaks
 Homepage: https://opa334.github.io/
 Description: Various enhancements to Safari!
