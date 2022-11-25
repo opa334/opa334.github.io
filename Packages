@@ -823,6 +823,22 @@ Description: Spoof screen recording detection!
 Author: opa334
 Name: NotRecording
 
+Package: com.opa334.notrecording
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 416
+Depends: mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.opa334.notrecording_1.1_iphoneos-arm.deb
+Size: 21768
+MD5sum: 2d23c5ac947eeaf9b305ca159234a092
+SHA1: 3148cc12f422972e10a72c5c77bbd9492c9516ec
+SHA256: 04093aaea83ce4227da738f6f6e3811fefcabb956ec10f142d774a31c7a3cec3
+Section: Tweaks
+Description: Spoof screen recording detection!
+Author: opa334
+Name: NotRecording
+
 Package: com.opa334.powerloghelperdfix
 Version: 1.0
 Architecture: iphoneos-arm
