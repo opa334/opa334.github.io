@@ -727,6 +727,24 @@ Author: opa334
 Depiction: https://opa334.github.io/depic/FastSafariPW/index.html
 Name: FastSafariPW
 
+Package: com.opa334.libsandy
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 564
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.0.2_iphoneos-arm.deb
+Size: 24748
+MD5sum: d3993eca649f6fcca668e6c154448f2e
+SHA1: 070a68b40fa415364546e85cded9c58e7ed2a3c5
+SHA256: 8d31e981b71c8ff575fb7d69a2a3ac56c598589142065f032105dbb43409797b
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
 Package: com.opa334.libundirect
 Version: 1.0
 Architecture: iphoneos-arm
