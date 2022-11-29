@@ -1,3 +1,21 @@
+Package: com.opa334.altlist
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 404
+Depends: firmware (>=7.0)
+Filename: ./debs/com.opa334.altlist_1.0.8_iphoneos-arm.deb
+Size: 47844
+MD5sum: 1633909bb21518536ce21d2aa38cb0d5
+SHA1: 6a19af11044c060eb53c5534d626ff388873024f
+SHA256: c8bcd01a4ae86ce2a25ff8aad8981839136642cfaa65724954900408643f5af1
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
 Package: com.opa334.cccleaner
 Version: 1.0
 Architecture: iphoneos-arm
