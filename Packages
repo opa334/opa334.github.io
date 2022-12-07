@@ -2776,3 +2776,19 @@ Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
 Name: White Point Module
 Sileodepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
 
+Package: com.opa334.xinaiconfix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.libsandy
+Filename: ./debs/com.opa334.xinaiconfix_1.0_iphoneos-arm.deb
+Size: 2696
+MD5sum: 1186ffc538b2d7debadcd55a15fa529b
+SHA1: 968e89158c58f5633c97dc8f60618138c21e3f63
+SHA256: d9414b5d43868e27eabafe3d36f7b0f7809281d616797f0b998392066424f944
+Section: Tweaks
+Description: Fix missing icons on XinaA15.
+Author: opa334
+Name: XinaIconFix
+
