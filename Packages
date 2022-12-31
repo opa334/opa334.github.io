@@ -34,6 +34,24 @@ Author: opa334
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Name: AltList
 
+Package: com.opa334.altlist
+Version: 1.0.9
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 388
+Depends: firmware (>=7.0)
+Filename: ./debs/com.opa334.altlist_1.0.9_iphoneos-arm.deb
+Size: 46684
+MD5sum: 9dbf6e22cc24b7269ec5de25032394ec
+SHA1: c075580e278bb8fc78ebf8deccc30a3980df9399
+SHA256: e2d878757835338a75b8046099852dabfd69df3d9fd856b7ca4790b821926d64
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
 Package: com.opa334.cccleaner
 Version: 1.0
 Architecture: iphoneos-arm
@@ -641,6 +659,23 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
+Package: com.opa334.choicy
+Version: 1.4.6
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1076
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/com.opa334.choicy_1.4.6_iphoneos-arm.deb
+Size: 162456
+MD5sum: 4d7367a718f9b46b1714521c79d8520c
+SHA1: 039cf5b659e2032690f273d78a279c1201eb77bf
+SHA256: b952833d2a951a8788c1812ada75f024a40bc5ff8d51519ee955ff191f6e77e1
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
 Package: com.opa334.choicyloader
 Version: 1.0
 Architecture: iphoneos-arm
@@ -780,6 +815,24 @@ Author: opa334
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Name: libSandy
 
+Package: com.opa334.libsandy
+Version: 1.0.3-2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 564
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.0.3-2_iphoneos-arm.deb
+Size: 24118
+MD5sum: b86510bea08580993f4d86ae5c8031fa
+SHA1: e5bbe4e65c50885a57b1eb86b61bbca506a2ab49
+SHA256: e4b4061d450d09a09e7068b0a3e69084197aea8526bbad64cf67e55ba9989424
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
 Package: com.opa334.libundirect
 Version: 1.0
 Architecture: iphoneos-arm
@@ -854,6 +907,22 @@ Size: 8788
 MD5sum: 13a4c00dd901826945cd5047fcf1c22f
 SHA1: 30977522455a107ad5261b33041ca21c1e45dec4
 SHA256: 0475a154c61fde4e4f14f7ed979ae68074cd914f7ee027e4b8326423a3fcb388
+Section: System
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Author: opa334
+Name: libundirect
+
+Package: com.opa334.libundirect
+Version: 1.1.4-3
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 296
+Filename: ./debs/com.opa334.libundirect_1.1.4-3_iphoneos-arm.deb
+Size: 10826
+MD5sum: 75b673e4067252303c7d399ccda6c5c4
+SHA1: 6547f796b4ac3aa9a76d4d45ebd709ed608eeb45
+SHA256: 4d74054d67904563ddfc57cbdfb6c65d6c4eb95beb50c2c555074c4b0bb8a401
 Section: System
 Description: Patchfinder and rebinder for objc_direct methods
 Tag: role::developer
