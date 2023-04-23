@@ -1221,6 +1221,22 @@ Name: NotRecording
 
 Package: com.opa334.notrecording
 Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 352
+Depends: mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.opa334.notrecording_1.1_iphoneos-arm64.deb
+Size: 15800
+MD5sum: f5bc5461cca09f68ebdff0824cf47851
+SHA1: 3271b0bbdd02764db5f9e0752e271640dfd1c134
+SHA256: 2cc78d50930864b634367dab2b5f04881c6d62f23d621ce4f8b21eb5cda850f4
+Section: Tweaks
+Description: Spoof screen recording detection!
+Author: opa334
+Name: NotRecording
+
+Package: com.opa334.notrecording
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: opa334
 Installed-Size: 416
@@ -3092,6 +3108,25 @@ Size: 17056
 MD5sum: 03259fbd3c8c5c4645c63a9109a95b42
 SHA1: 59a4fd93317f0a6f45d228ae9c14945bdd969c46
 SHA256: e1755e82194dd9cdfa98a6b2ae34065a2fdc04ea883973825072dd2be9ed50e2
+Section: Control Center (Modules)
+Description: Reduce White Point from Control Center!
+Author: opa334
+Depiction: https://opa334.github.io/depic/WhitePointModule/index.html
+Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
+Name: White Point Module
+Sileodepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
+
+Package: com.opa334.whitepointmodule
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 216
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 11.0)
+Filename: ./debs/com.opa334.whitepointmodule_1.2.2_iphoneos-arm64.deb
+Size: 14950
+MD5sum: dda37c21e8ed67c1eb7ddfd60a978002
+SHA1: 7e34a06cb39600b43a16d33dc0800257ce8a7e20
+SHA256: 85d78767cf8746f8809aceea74b70120fcd0fd36e9d58dda5fc614fdcab1174d
 Section: Control Center (Modules)
 Description: Reduce White Point from Control Center!
 Author: opa334
