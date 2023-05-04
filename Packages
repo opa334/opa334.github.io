@@ -860,6 +860,40 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
+Package: com.opa334.choicy
+Version: 1.4.8
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1076
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/com.opa334.choicy_1.4.8_iphoneos-arm.deb
+Size: 162758
+MD5sum: abae205d9cd504a1c08d76c30ac07247
+SHA1: ae661c26d36de465e294a2dc6967aa6fbdadd5a1
+SHA256: 3a8bb7c4caa5ac4198500b753c9edf56ea238d1c492b45f75d4e7764e078ac61
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
+Package: com.opa334.choicy
+Version: 1.4.8
+Architecture: iphoneos-arm64
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 884
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/com.opa334.choicy_1.4.8_iphoneos-arm64.deb
+Size: 103138
+MD5sum: 3d0ec59b8ae8bfeb7d71ae9663d45726
+SHA1: 48446106d817aa6ff6b5d3e44a583b5dede3edf2
+SHA256: 9a34ca5a85ebb19f90d18a4ff0f988cb4901585a25cf4f062b21c91784853612
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
 Package: com.opa334.choicyloader
 Version: 1.0
 Architecture: iphoneos-arm
