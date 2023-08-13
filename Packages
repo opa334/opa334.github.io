@@ -3246,6 +3246,22 @@ Depiction: https://opa334.github.io/depic/SafariPlus/index.html
 Icon: https://opa334.github.io/depic/SafariPlus/Resources/icon.png
 Name: Safari Plus (Cepheiless)
 
+Package: com.opa334.timebomb
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.opa334.timebomb_1.0.0_iphoneos-arm64.deb
+Size: 2784
+MD5sum: 9384dfc613990a9b717c2ade1cdf848b
+SHA1: 59e1367129426fb1685331c867488dd45aa2c059
+SHA256: 08ca98ff237a8227bbf8425e96f985c3dcccfe0921afb9dfcb24bf5460b71eb1
+Section: Tweaks
+Description: Spinlock timeout with ease!
+Author: opa334
+Name: TimeBomb
+
 Package: com.opa334.whitepointmodule
 Version: 1.0
 Architecture: iphoneos-arm
