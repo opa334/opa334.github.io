@@ -759,6 +759,40 @@ Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
 Package: com.opa334.choicy
+Version: 1.4.10-3
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1092
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/com.opa334.choicy_1.4.10-3_iphoneos-arm.deb
+Size: 163648
+MD5sum: 1815b977cc442dfdb9664b94ff54f853
+SHA1: df3fff53aebd13b3068cdff0200ba6fd701f148e
+SHA256: a157dd402a886e4fe8751da93c5c5c23beca1a01116dd2b0b8126ee92fff87bc
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
+Package: com.opa334.choicy
+Version: 1.4.10-3
+Architecture: iphoneos-arm64
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 884
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/com.opa334.choicy_1.4.10-3_iphoneos-arm64.deb
+Size: 104702
+MD5sum: f93895c1e4cd1022da50a49bf615e31b
+SHA1: 7a3d4fa057ee888543853be6aa2c88da845f353e
+SHA256: 66a503737a9e0b14d7050d6f91ce82ebc7bcc44ff5eabac28f01ca4d8663471e
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
+Package: com.opa334.choicy
 Version: 1.4.2
 Architecture: iphoneos-arm
 Maintainer: opa334 <opa334@protonmail.com>
@@ -1295,6 +1329,42 @@ Author: opa334
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Name: libSandy
 
+Package: com.opa334.libsandy
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 340
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.1.2_iphoneos-arm64.deb
+Size: 12142
+MD5sum: 4d21410d729d2514e441c3f170eed14a
+SHA1: 0cdf5b2a7e911a5c06584a2160acea1bc6577590
+SHA256: d792268827d732141ed3b25d271827c4e4b1e339c3f60dc708a7ad58c47dfea2
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
+Package: com.opa334.libsandy
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 436
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.1.2_iphoneos-arm.deb
+Size: 24082
+MD5sum: fd658ac607f9c0812b980ef17db00cff
+SHA1: 071ff511bcd83f36a7853f298ea653065f9f3923
+SHA256: 894ba3563bac68ce7510a62e0244a9abf866790fc907265afd8c52c829aa4483
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
 Package: com.opa334.libundirect
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1452,6 +1522,38 @@ Size: 21768
 MD5sum: 2d23c5ac947eeaf9b305ca159234a092
 SHA1: 3148cc12f422972e10a72c5c77bbd9492c9516ec
 SHA256: 04093aaea83ce4227da738f6f6e3811fefcabb956ec10f142d774a31c7a3cec3
+Section: Tweaks
+Description: Spoof screen recording detection!
+Author: opa334
+Name: NotRecording
+
+Package: com.opa334.notrecording
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 416
+Depends: mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.opa334.notrecording_1.1.1_iphoneos-arm.deb
+Size: 21936
+MD5sum: a8da7da94020316280ab6fef3f7496be
+SHA1: bb9a8d80be27d61faccaa90c4820eef683fae87e
+SHA256: 147d79e2429aa6d8ca331fc2bac097ab03ac6a5dd69a3d797e315f952076c67e
+Section: Tweaks
+Description: Spoof screen recording detection!
+Author: opa334
+Name: NotRecording
+
+Package: com.opa334.notrecording
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 352
+Depends: mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.opa334.notrecording_1.1.1_iphoneos-arm64.deb
+Size: 15844
+MD5sum: 2eec55444a92beda10efb056e6ab7910
+SHA1: 0a9b320d1c82d5f8ac75713c69d6f77dd150b798
+SHA256: 3f4dba6865847eff845dc8157632b559c9ff180163eb119c6d0ad5a3f734b444
 Section: Tweaks
 Description: Spoof screen recording detection!
 Author: opa334
