@@ -3464,6 +3464,38 @@ Description: Spinlock timeout with ease!
 Author: opa334
 Name: TimeBomb
 
+Package: com.opa334.timebomb
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.opa334.timebomb_1.1-2_iphoneos-arm.deb
+Size: 3184
+MD5sum: 403436d75a47fc6a00d8ce1cdd17844c
+SHA1: ffd17119de7528854beaef7e8654217474b38dcd
+SHA256: 773f4c2914f8e4fe6a90a3bb1c134ac2404436d307467cd9036da0188f0994e4
+Section: Tweaks
+Description: Spinlock timeout with ease!
+Author: opa334
+Name: TimeBomb
+
+Package: com.opa334.timebomb
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.opa334.timebomb_1.1-2_iphoneos-arm64.deb
+Size: 3236
+MD5sum: acdd35bf010fc93629a84c403aa49827
+SHA1: 5cf8693094f866be03b1feb00c3ce348540595d6
+SHA256: 40df8f89b6c5011bee79b0575a9523e7b615c82b955c202c7f6e1977d24efb84
+Section: Tweaks
+Description: Spinlock timeout with ease!
+Author: opa334
+Name: TimeBomb
+
 Package: com.opa334.whitepointmodule
 Version: 1.0
 Architecture: iphoneos-arm
