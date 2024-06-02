@@ -19,7 +19,7 @@
 
 <div class="content">
   
-	<p>这里是A先生的博客 <a href="https://b23.tv/9fAhpgB">
+	<p>这里是A先生的博客 <a href="https://b23.tv/4VQxRIN">
 <img border="0" src="53E73DEF-E211-4876-B323-5AF6AAE5EB38.png" width="84" height="32"></a></p>
   <a href="https://github.com/liyu-qi/liyu-qi.github.io/releases/download/%E6%9D%8E%E5%AD%90%E6%A1%8C%E9%9D%A2%E7%89%88/liyu-qi.mobileconfig">A先生官网桌面版点击安装不迷路</a><br>
 
