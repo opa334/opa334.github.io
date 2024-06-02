@@ -3610,3 +3610,354 @@ Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
 Name: White Point Module
 Sileodepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
 
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleaner Pro_7.10.0_iphoneos-arm64.deb
+Size: 977880
+MD5sum: 1c36b130055300286b33f09975e2e914
+SHA1: ca22c7716b59f30737bfa2b3f6adb704f7031da4
+SHA256: 8936e1c724488fc214237a12177e4c506d758be3abd390b8afb83d628a94357c
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.lizi.stupidenglishhdpatch
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: A先生­- <lizi54188@outlook.com>
+Installed-Size: 88
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Filename: debs/com.lizi.stupidenglishhdpatch_1.0_iphoneos-arm64.deb
+Size: 3008
+MD5sum: 310c648fd2dc7c955bef1432cec2dacd
+SHA1: fd5ecaee2c377c1eacf074dd8e7a82e68fd695ab
+SHA256: 23318a8d054dde941086d856621e2350dcc0205e3be537795be599126faf9362
+Section: Tweaks
+Description: ***Made using Flex To Theos updated by Randy420***
+Author: A先生- <lizi54188@outlook.com>
+Name: 傻瓜英语HD Patch
+
+Package: com.nan.bindfs
+Version: 0.4.1
+Architecture: iphoneos-arm64
+Maintainer: A先生 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/mount_bindfs (Dopamine)_0.4.1_iphoneos-arm64.deb
+Size: 6512
+MD5sum: 467bdb1632d7c251744a8ed892eecd51
+SHA1: a588518ebd97f4aa78ce963495ea32497e5b76c7
+SHA256: dddcb95b735ffb8a47ab8d6d573cc66383a1922de86b3505e5825a9d57da263d
+Section: Terminal_Support
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Author: A先生 & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: mount_bindfs (Dopamine)
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+
+Package: com.ryannair05.cask3
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 862
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: debs/Cask3.1.0.2.deb
+Size: 321592
+MD5sum: fa37903f894a8ca6be5ace3c66a1ae2e
+SHA1: c8e01c6d98e7417c127bd67d86f6d6ac3efb154b
+SHA256: 2ecf9b576cfba135cb8fa79f1eaa141bfe2f1a7a3b8eab5792bd7216d743b619
+Section: Tweaks
+Description: Animated table scrolling
+Tag: compatible_min::ios14.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Depiction: https://chariz.com/get/cask-3
+Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
+Name: Cask 3
+
+Package: dev.theos.orion14
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 514
+Depends: firmware (>= 14.0), firmware (<< 17.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.1)
+Filename: debs/dev.theos.orion14_1.0.1_iphoneos-arm64.deb
+Size: 93496
+MD5sum: 04765042c8158f0cbb41d8176ab98461
+SHA1: 2b5dfa7693b4be295ca9a908ad4c88916bd79847
+SHA256: 6ad3e366ffe33199304037dbc4a62e8dd50e6a40bd5cc2005b9ec24fda2695f1
+Section: 系统
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: Theos Team <support@theos.dev>
+Depiction: https://chariz.com/get/orion-runtime14
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Name: Orion Runtime (iOS 14 – 16)
+
+Package: ellekit
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/ellekit_1.1.2_iphoneos-arm64.deb
+Size: 337380
+MD5sum: f5728275da8e473c6192ed463be4746a
+SHA1: aa7e1376d51385d1b0b0b7e1de44cc6f4d038eb3
+SHA256: dfc14014715ce03580b7707de61bfc23b0fce40909340d46fcaace2a638da515
+Section: 插件
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: git
+Version: 2.39.1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 29680
+Depends: libiosexec1 (>= 1.2.2), libcurl4, libssl3, libintl8, libpcre2-8-0, libidn2-0, firmware (>= 14.0) | libexpat1, pager
+Filename: debs/git.2.39.1.deb
+Size: 6919132
+MD5sum: 343bd549852e58777f49779505d16926
+SHA1: 8a998144c483938f32f48f272db78f2f53cf8a4a
+SHA256: 03148575b87ebc6183ffce696f709fbb47a53ad719092cca1ac499c16cffdced
+Section: Data_Storage
+Priority: optional
+Description: fast, scalable, distributed revision control system
+Name: git
+
+Package: jailbreak.lizi.repo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: A先生
+Filename: debs/jailbreak.lizi.repo_1.0_iphoneos-arm64.deb
+Size: 2092
+MD5sum: ef04e9d8b532b61d7884f7fc4ff012bf
+SHA1: bb014ef498340e6c346a8a4cc07a893d2435a37d
+SHA256: 7eb485da1b9d2ccb1f6ac01f4f1c1370827821f7f9e5ecc94994442b72df3eb5
+Section: 插件源
+Priority: optional
+Description: 一个为无根越狱准备的插件源
+Name: 整合插件源
+
+Package: lizi.ftt.cn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: A先生
+Filename: debs/lizi.ftt.cn_1.0_iphoneos-arm64.deb
+Size: 42804
+MD5sum: a596fbce829226213c6a3559e80b4aa3
+SHA1: 2dd7d8f97e7098ec061e0030501d84eaf8575405
+SHA256: 0286d37130bf05c3ffa36c4d29947d2cd53498569c532996ceb7082d7b6173c3
+Section: 终端支持
+Priority: optional
+Description: flex to theos
+Name: ftt汉化
+
+Package: lizi.newterm.cn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: A先生
+Filename: debs/lizi.newterm.cn_1.0_iphoneos-arm64.deb
+Size: 1856
+MD5sum: 162be5da4718dd322d6996a31e91ff91
+SHA1: f65ab28f125535b53d5fb2fa884d699974af83cb
+SHA256: 28133e87e958fe93033c0ccf712d46ab0f252e1947409267e771ce6be9743dd6
+Section: 汉化
+Priority: optional
+Description: 中文汉化插件
+Name: NewTerm3汉化（先装NewTerm）
+
+Package: neofetch
+Version: 7.1.0+20220216.ccd5d9f
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 384
+Depends: bash (>= 5.0), awk
+Conflicts: com.matdev.neofetch-ios
+Replaces: com.matdev.neofetch-ios
+Filename: debs/neofetch.7.1.0+20220216.ccd5d9f.deb
+Size: 88308
+MD5sum: 62e0da1f819e56e1b2d75d42ea86d88f
+SHA1: 4122e248e9d1b1ee459c484749fc7327472a62a1
+SHA256: 719660bb78cfaea7709e6984d3d3d4b959ff8b8fe586d966cf71df5a91390a75
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows System Information with Distribution Logo
+Author: Dylan Araps <dylan.araps@gmail.com>
+Name: neofetch
+
+Package: openssh
+Version: 1:0
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 8
+Depends: openssh-client, openssh-server, openssh-sftp-server
+Filename: debs/openssh.1:0.deb
+Size: 762544
+MD5sum: 5620b964d6419d35b74415c3013f7481
+SHA1: b6ddb8226b54d17cf3b670c7be4b586c0b86e23a
+SHA256: d3e78922dae034369b9476333a1d02ffb8c893e8452cbcbf5d101f5589973553
+Section: Networking
+Priority: important
+Description: secure shell client and server (metapackage)
+Name: openssh
+
+Package: preferenceloader
+Version: 2.2.7
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 370
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_2.2.7_iphoneos-arm64.deb
+Size: 17548
+MD5sum: 5fe8c9768d0008521401874e2452946f
+SHA1: e7c8581e77f417b4ae2c94c26adbaeedc0bcacc5
+SHA256: 21b316b64f7a9148520c85de31a7c588fe7f660c5049c1377e14e152746e8e87
+Section: 系统
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
+Package: theos-dependencies
+Version: 0-1
+Architecture: all
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 0
+Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid
+Recommends: plutil, swift
+Conflicts: org.theos.dependencies
+Replaces: org.theos.dependencies
+Provides: org.theos.dependencies
+Filename: debs/theos-dependencies_0-1_all.deb
+Size: 856
+MD5sum: 9bd9351270282106ad2f07c3d62f219c
+SHA1: 92f4a1354337cd84ff923c2975ff33258b2e5f16
+SHA256: e2fc9fbfd0a19e4bac4a0b4705f15409347e805bf5ffcc5c0c3d1e8c3dccdbb1
+Section: 插件开发
+Priority: optional
+Description: What Theos needs.
+Name: Theos依赖
+
+Package: tweaktool
+Version: 2.0.0-beta
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/一键备份和恢复工具-Rootless_2.0.0-beta_iphoneos-arm64.deb
+Size: 10792
+MD5sum: 50c489ed9fe9f6717e396e1f459bfc33
+SHA1: 0070bc2c14335d70ddb8ef316c580e09a20682f9
+SHA256: 81bda07e76a03f7431d6445738cfb4630b69bbbabea116a4927b9d451360cad4
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+
+Package: wget
+Version: 1.21.3-1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 596
+Depends: libiosexec1 (>= 1.2.2), libssl3, libpcre2-8-0, libintl8, libunistring5, libidn2-0
+Filename: debs/wget.1.21.3-1.deb
+Size: 247332
+MD5sum: ce1f3c8309cd095fefa8f6ce424a8fb1
+SHA1: 953027e6900cb7c7ec7ab3a1ecfaf52ad10c3f19
+SHA256: 1adfe768b65831803ab24985b6eec46e971bed89b35cd37e19a15f3141145edc
+Section: Networking
+Priority: important
+Description: retrieves files from the web
+Name: wget
+
+Package: ws.hbang.alderis
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2463
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Filename: debs/ws.hbang.alderis_1.2.3_iphoneos-arm64.deb
+Size: 290856
+MD5sum: 73b8a9a608f3761f3ea8484e6d9f8562
+SHA1: 2e1144e4d4b1c73af66882453d886e86ff79f506
+SHA256: 278ce24cf1c8121a806f2d753686173c9ce43ffb16809bab395e723bf8c82bd2
+Section: 插件开发
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: debs/ws.hbang.common_2.0_iphoneos-arm64.deb
+Size: 198952
+MD5sum: ce246d31a7fccbd566f7e18f0c0e4027
+SHA1: c9c6adc35d70ce562f89e81ecc30162681a698da
+SHA256: 03757af55be10b143a8641d39f1a81717a1bea8da8f38bcbc9dfb68947f7afb0
+Section: 插件开发
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.lizinewterm
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: A先生- <bilibili.com>
+Installed-Size: 14899
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Filename: debs/ws.hbang.lizinewterm_3.0_iphoneos-arm64.deb
+Size: 18541260
+MD5sum: 8d9712cba288d6611c70aabb58f7f8e0
+SHA1: d3b3554e90799531789a3646b2d718009951f744
+SHA256: ba5de37ac7bac8028aa22922fd6b935e7f0b0b3cf1a90770c5ad02db8ae50a56
+Section: 终端
+Description: newterm3中文版(带theos包，无sdk)，A先生博客上找教程
+Tag: compatible_min::ios14.0
+Author: A先生- <bilibili.com>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: newterm3中文版(带theos包)
+
+Package: ws.hbang.newterm3
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 14899
+Filename: debs/ws.hbang.newterm3_3.0_iphoneos-arm64.deb
+Size: 3836936
+MD5sum: d0ee0c249984d24f82524cce2f18a691
+SHA1: d2a42ca500ebccf7ff215f3dffd2fa5a8b1004cc
+SHA256: 458102b4e18e8b2ede4f60f9ee7ef35abefcacbec9f32c18278f242592c7539b
+Section: 终端
+Description: 它是个终端
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm3
