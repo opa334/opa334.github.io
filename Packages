@@ -35,6 +35,42 @@ Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Name: AltList
 
 Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: ./debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 26884
+MD5sum: 1874e0da98f00417adab6dee7134f77c
+SHA1: 78b40438355e042de1ef082fcd9add718f7e1ec4
+SHA256: 5835a6b0eacd5d99d272b3f74a744b28b1c4c16ada03aade36d0a636bca5e1f0
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 388
+Depends: firmware (>=7.0)
+Filename: ./debs/com.opa334.altlist_1.0.11_iphoneos-arm.deb
+Size: 47100
+MD5sum: e3ed39c53a748c154fc1151ae181bb52
+SHA1: 103f6988e7a8ab9f1e83408ed7a78573f36cabef
+SHA256: c2299f0ee65bfb25c4549ec3f24594b035a7cdab364dbfffbf632d67e723b75f
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
+Package: com.opa334.altlist
 Version: 1.0.8
 Architecture: iphoneos-arm
 Maintainer: opa334
@@ -276,6 +312,46 @@ Size: 59458
 MD5sum: d282fb43c3fc5b11092b3c975e55795d
 SHA1: 6e4d64bb3a8ce2a50ae78f865ec276ec9e70155e
 SHA256: 81e2eaa9d5c7811b7877333196300f68186816f56722f33e60a29244056d46c1
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 496
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.13-2_iphoneos-arm.deb
+Size: 64204
+MD5sum: fb8f8641a2508106e155a2fa701d9099
+SHA1: a5229c5da464d2b2f9ff334748801f4194ac6a2e
+SHA256: 60de418d12dbf2384ce045c3f029fb6aa87c53da16c63860ab17d117b7b0473c
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 560
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.13-2_iphoneos-arm64.deb
+Size: 58952
+MD5sum: f108fb86bbbe13ee3a1e381eea1d0f97
+SHA1: 176a01aeb900f5c0d31bceb6751441059e0cea24
+SHA256: 5d59f00755bf40d21bfa86e75e121b561a23ab1cad9632fbeede8563ef65bfde
 Section: Tweaks
 Description: Support tweak for CC modules!
 Author: opa334
@@ -1401,6 +1477,42 @@ Author: opa334
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Name: libSandy
 
+Package: com.opa334.libsandy
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 312
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.1.4_iphoneos-arm.deb
+Size: 20546
+MD5sum: 25e8918d912d4ece138a221b6d5731a6
+SHA1: 970b4d73c793ae3561abac288347922818b9b0fe
+SHA256: e80b6573fec6cbe3d30274683d2df7692642c70546fe3321247328c97058d010
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
+Package: com.opa334.libsandy
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 264
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/com.opa334.libsandy_1.1.4_iphoneos-arm64.deb
+Size: 12292
+MD5sum: bee1ccf0704990b0f0a1ae1acc8fb92c
+SHA1: f68a597e3420c30b8bca2480c3bb732cad8e2608
+SHA256: 582cf388894e54dd2831b988377fef271d38f5befe56e6f14f071f1f5da99855
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
 Package: com.opa334.libundirect
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1491,6 +1603,38 @@ Size: 10826
 MD5sum: 75b673e4067252303c7d399ccda6c5c4
 SHA1: 6547f796b4ac3aa9a76d4d45ebd709ed608eeb45
 SHA256: 4d74054d67904563ddfc57cbdfb6c65d6c4eb95beb50c2c555074c4b0bb8a401
+Section: System
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Author: opa334
+Name: libundirect
+
+Package: com.opa334.libundirect
+Version: 1.1.6
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 232
+Filename: ./debs/com.opa334.libundirect_1.1.6_iphoneos-arm.deb
+Size: 12790
+MD5sum: 67783332233d942006c1bf3973691176
+SHA1: 48229775f15a01f0dc7c42a74cc69300f33ddbd0
+SHA256: a80fd3713f69861307fbce3d4927c6a4dcc782c062eea177614f34c7a916ac7a
+Section: System
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Author: opa334
+Name: libundirect
+
+Package: com.opa334.libundirect
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 168
+Filename: ./debs/com.opa334.libundirect_1.1.6_iphoneos-arm64.deb
+Size: 7784
+MD5sum: 03ead59a9a00256e46db9deb82541baf
+SHA1: 0277416ba9951143e3189438d0998eb2fc4c7364
+SHA256: 13127fcea8e4e20202b18d63c521da7ac10b232186d7cc3e911d7539a8c8d0ce
 Section: System
 Description: Patchfinder and rebinder for objc_direct methods
 Tag: role::developer
