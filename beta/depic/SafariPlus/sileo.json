@@ -30,8 +30,8 @@
 				},
 				{
 					"class": "DepictionTableButtonView",
-					"title": "Follow me on Twitter",
-					"action" : "https://twitter.com/opa334dev"
+					"title": "Follow me on Mastodon",
+					"action" : "https://infosec.exchange/@opa334"
 				},
 				{
 					"class": "DepictionTableButtonView",
