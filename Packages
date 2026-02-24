@@ -1683,6 +1683,40 @@ Author: opa334
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Name: libSandy
 
+Package: com.opa334.libsandy
+Version: 1.1.6-3
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 468
+Filename: ./debs/com.opa334.libsandy_1.1.6-3_iphoneos-arm.deb
+Size: 28260
+MD5sum: 90d4f99f2f77e9591b80fb448ca097b9
+SHA1: 047298c48cf6311c4c07450a1b6fc22bf9d05ca1
+SHA256: 90af3c0f733aa599911bf20ce513c8bece1ee754dc66c972ff13d0861fb60b45
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
+Package: com.opa334.libsandy
+Version: 1.1.6-3
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 420
+Filename: ./debs/com.opa334.libsandy_1.1.6-3_iphoneos-arm64.deb
+Size: 18156
+MD5sum: b5d4e106a1c228e07dace2c3d731a20e
+SHA1: b82b2a3241216dcb56bc4669034f2900a7449567
+SHA256: cc28ef038812af81ba04ac843cac36e9d779265f577b9c986eac1ddce7a1d06b
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
 Package: com.opa334.libundirect
 Version: 1.0
 Architecture: iphoneos-arm
